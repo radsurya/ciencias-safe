@@ -1,0 +1,4 @@
+com/example/cienciassafe/BuildConfig.java
+ com.example.cienciassafe.BuildConfig
+com/example/cienciassafe/MainActivity.java
+ com.example.cienciassafe.MainActivity

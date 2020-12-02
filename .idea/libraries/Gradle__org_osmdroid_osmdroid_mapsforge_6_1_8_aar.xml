@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: org.osmdroid:osmdroid-mapsforge:6.1.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3397ddf6f2cdf6363babfaf32137b95b/jetified-osmdroid-mapsforge-6.1.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3397ddf6f2cdf6363babfaf32137b95b/jetified-osmdroid-mapsforge-6.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3397ddf6f2cdf6363babfaf32137b95b/jetified-osmdroid-mapsforge-6.1.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osmdroid/osmdroid-mapsforge/6.1.8/8a54da91d12f9645907f4ff2714187efe0d03143/osmdroid-mapsforge-6.1.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osmdroid/osmdroid-mapsforge/6.1.8/64f1da15fbb0baaf940c6f9507f081337d308589/osmdroid-mapsforge-6.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
