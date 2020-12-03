@@ -18,4 +18,9 @@ public class Menu extends AppCompatActivity {
         Intent intent = new Intent(this, Classrooms.class);
         startActivity(intent);
     }
+
+    public void goToScreen1(View view) {
+        Intent intent = new Intent(this, ReportResource.class);
+        startActivity(intent);
+    }
 }

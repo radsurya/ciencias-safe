@@ -8,8 +8,14 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application android:theme="@style/Theme.AppCompat">
-        <activity android:name=".Menu"></activity>
-        <activity android:name=".Classrooms" />
+        <activity android:name=".ReportResource"
+            android:parentActivityName=".Menu"/>
+        <activity
+            android:name=".Menu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Classrooms"
+            android:parentActivityName=".Menu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

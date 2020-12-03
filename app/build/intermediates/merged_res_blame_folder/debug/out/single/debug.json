@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_menu_white.png.flat",
-        "source": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\menu_white.png"
-    },
-    {
         "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_menu_white.png.flat",
+        "source": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\menu_white.png"
     },
     {
         "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -78,6 +78,10 @@
     {
         "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_resource.xml.flat",
+        "source": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\src\\main\\res\\layout\\activity_report_resource.xml"
     },
     {
         "merged": "C:\\Users\\Filipe Bastias\\Documents\\FCUL\\1_Semestre\\Computacao_Movel\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_white.png.flat",

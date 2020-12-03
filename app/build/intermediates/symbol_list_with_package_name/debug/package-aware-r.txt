@@ -955,10 +955,11 @@ id bubble_image
 id bubble_moreinfo
 id bubble_subdescription
 id bubble_title
-id button
 id button2
 id button3
 id button4
+id button5
+id button6
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1192,6 +1193,7 @@ layout abc_tooltip
 layout activity_classrooms
 layout activity_main
 layout activity_menu
+layout activity_report_resource
 layout bonuspack_bubble
 layout custom_dialog
 layout notification_action

@@ -39,8 +39,15 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
-        <activity android:name="com.example.cienciassafe.Menu" />
-        <activity android:name="com.example.cienciassafe.Classrooms" />
+        <activity
+            android:name="com.example.cienciassafe.ReportResource"
+            android:parentActivityName="com.example.cienciassafe.Menu" />
+        <activity
+            android:name="com.example.cienciassafe.Menu"
+            android:parentActivityName="com.example.cienciassafe.MainActivity" />
+        <activity
+            android:name="com.example.cienciassafe.Classrooms"
+            android:parentActivityName="com.example.cienciassafe.Menu" />
         <activity android:name="com.example.cienciassafe.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
