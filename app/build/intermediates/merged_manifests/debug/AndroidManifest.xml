@@ -38,6 +38,7 @@
         android:fullBackupOnly="false"
         android:label="@string/app_name"
         android:testOnly="true" >
+        <activity android:name="com.example.cienciassafe.Classrooms" />
         <activity android:name="com.example.cienciassafe.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

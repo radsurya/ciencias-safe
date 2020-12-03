@@ -11,17 +11,17 @@
 9-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:4:5-78
-11-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:4:22-76
+11-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:5:5-67
-12-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:5:22-64
+12-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:6:5-80
-13-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:6:22-76
+13-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:7:5-81
-14-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:7:22-78
+14-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:8:22-78
 15
 16    <supports-screens
 16-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\004d0ac4f12d2cf22c44986a2da397ca\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:11:5-14:40
@@ -58,7 +58,7 @@
 32-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\004d0ac4f12d2cf22c44986a2da397ca\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:27:9-33
 33
 34    <application
-34-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:8:5-16:19
+34-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:10:5-19:19
 35        android:allowBackup="false"
 35-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\f4ce2046f0f4d72dc9067ac799c31740\jetified-geopackage-android-2.0.1\AndroidManifest.xml:12:9-36
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -69,20 +69,23 @@
 39        android:label="@string/app_name"
 39-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\f4ce2046f0f4d72dc9067ac799c31740\jetified-geopackage-android-2.0.1\AndroidManifest.xml:14:9-41
 40        android:testOnly="true" >
-41        <activity android:name="com.example.cienciassafe.MainActivity" >
-41-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:9:9-15:20
-41-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:9:19-47
-42            <intent-filter>
-42-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:10:13-14:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:11:17-69
-43-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:11:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:13:17-77
-45-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:13:27-74
-46            </intent-filter>
-47        </activity>
-48    </application>
-49
-50</manifest>
+41        <activity android:name="com.example.cienciassafe.Classrooms" />
+41-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:11:9-57
+41-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:11:19-45
+42        <activity android:name="com.example.cienciassafe.MainActivity" >
+42-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:12:9-18:20
+42-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:12:19-47
+43            <intent-filter>
+43-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:13:13-17:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:14:17-69
+44-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:14:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:16:17-77
+46-->C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:16:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
