@@ -23,4 +23,9 @@ public class Menu extends AppCompatActivity {
         Intent intent = new Intent(this, ReportResource.class);
         startActivity(intent);
     }
+
+    public void goToScreen2(View view) {
+        Intent intent = new Intent(this, LocalizationHistoric.class);
+        startActivity(intent);
+    }
 }

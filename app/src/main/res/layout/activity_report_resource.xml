@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".ReportResource">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="207dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="260dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="92dp"
+            android:layout_height="88dp"
+            android:background="@drawable/camera_icon"
+            android:clickable="true" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

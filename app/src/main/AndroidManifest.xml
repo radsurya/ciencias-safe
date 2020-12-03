@@ -8,8 +8,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application android:theme="@style/Theme.AppCompat">
-        <activity android:name=".ReportResource"
+        <activity android:name=".LocalizationHistoric"
             android:parentActivityName=".Menu"/>
+        <activity
+            android:name=".ReportResource"
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".Menu"
             android:parentActivityName=".MainActivity" />

@@ -40,6 +40,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
+            android:name="com.example.cienciassafe.LocalizationHistoric"
+            android:parentActivityName="com.example.cienciassafe.Menu" />
+        <activity
             android:name="com.example.cienciassafe.ReportResource"
             android:parentActivityName="com.example.cienciassafe.Menu" />
         <activity
