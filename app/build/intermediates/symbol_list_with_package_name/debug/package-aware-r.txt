@@ -827,6 +827,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable center
+drawable hamburguer_menu
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_compass
@@ -954,6 +955,10 @@ id bubble_image
 id bubble_moreinfo
 id bubble_subdescription
 id bubble_title
+id button
+id button2
+id button3
+id button4
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1185,6 +1190,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_classrooms
 layout activity_main
+layout activity_menu
 layout bonuspack_bubble
 layout custom_dialog
 layout notification_action

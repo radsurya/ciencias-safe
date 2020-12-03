@@ -8,7 +8,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application>
-        <activity android:name=".Classrooms"></activity>
+        <activity android:name=".Menu"></activity>
+        <activity android:name=".Classrooms" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

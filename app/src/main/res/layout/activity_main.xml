@@ -10,26 +10,26 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:text="TextView" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/hamburguer_menu"
+            android:clickable="true"
+            android:onClick="goToScreen"/>
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_width="151dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Ciências Safe" />
-
+            android:text="Ciências Safe"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     </LinearLayout>
 

@@ -28,8 +28,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="menu_white" />
+                            <entry key="outputName" value="hamburguer_menu" />
                             <entry key="sourceFile" value="C:\Users\Radica Giva\AndroidStudioProjects\ciencias-safe" />
                           </map>
                         </option>

@@ -3,6 +3,7 @@ package com.example.cienciassafe;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -142,5 +144,11 @@ public class MainActivity extends Activity {
                     permissionsToRequest.toArray(new String[0]),
                     REQUEST_PERMISSIONS_REQUEST_CODE);
         }
+    }
+
+    public void goToScreen(View view) {
+        System.out.println("GO TO SCREEN");
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
     }
 }
