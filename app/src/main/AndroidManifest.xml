@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <application>
+    <application android:theme="@style/Theme.AppCompat">
         <activity android:name=".Menu"></activity>
         <activity android:name=".Classrooms" />
         <activity android:name=".MainActivity">

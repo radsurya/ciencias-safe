@@ -17,6 +17,7 @@
 
 
         <ImageButton
+            android:id="@+id/menu_button"
             android:layout_width="40dp"
             android:layout_height="50dp"
             android:background="@drawable/hamburguer_menu"

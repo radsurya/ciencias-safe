@@ -93,6 +93,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Fi
 		ADDED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\f4ce2046f0f4d72dc9067ac799c31740\jetified-geopackage-android-2.0.1\AndroidManifest.xml:14:9-41
 	android:allowBackup
 		ADDED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\f4ce2046f0f4d72dc9067ac799c31740\jetified-geopackage-android-2.0.1\AndroidManifest.xml:12:9-36
+	android:theme
+		ADDED from C:\Users\Filipe Bastias\Documents\FCUL\1_Semestre\Computacao_Movel\ciencias-safe\app\src\main\AndroidManifest.xml:10:18-56
 	android:fullBackupOnly
 		ADDED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\Filipe Bastias\.gradle\caches\transforms-2\files-2.1\f4ce2046f0f4d72dc9067ac799c31740\jetified-geopackage-android-2.0.1\AndroidManifest.xml:13:9-39
 activity#com.example.cienciassafe.Menu
