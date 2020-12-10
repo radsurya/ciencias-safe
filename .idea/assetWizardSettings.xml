@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/camera_alt/baseline_camera_alt_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../../../Filipe%20Bastias/AppData/Local/Android/Sdk/icons/material/materialicons/school/baseline_school_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="1f36ac" />
-                            <entry key="outputName" value="camera_icon" />
+                            <entry key="outputName" value="list_of_rooms_icon" />
                             <entry key="sourceFile" value="C:\Users\Radica Giva\AndroidStudioProjects\ciencias-safe" />
                           </map>
                         </option>
