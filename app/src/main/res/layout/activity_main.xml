@@ -1,45 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/drawerLayout"
+    >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <LinearLayout
+                android:id="@+id/layoutToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                app:layout_constraintTop_toTopOf="parent">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+                <!-- Menu button hamburger -->
+                <ImageView
+                    android:id="@+id/imageMenu"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/menu_white"
+                    app:tint="@color/colorWhite" />
 
+                <!-- Menu app name -->
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp" />
 
-        <ImageButton
-            android:id="@+id/menu_button"
-            android:layout_width="40dp"
+            </LinearLayout>
+
+            <!-- Show each screen from fragment -->
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintTop_toBottomOf="@id/layoutToolBar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/navHostFragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/main"/>
+
+            <!-- End - Show each screen from fragment -->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Show menu sidebar -->
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView"
+            app:menu="@menu/navigation_menu"
+            app:headerLayout="@layout/layout_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+        <!-- End - Show menu sidebar -->
+
+    <!--
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="409dp"
             android:layout_height="50dp"
-            android:background="@drawable/hamburguer_menu"
-            android:clickable="true"
-            android:onClick="goToScreen"/>
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="151dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:text="Ciências Safe"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    </LinearLayout>
+            <ImageButton
+                android:id="@+id/menu_button"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:background="@drawable/hamburguer_menu"
+                android:clickable="true"
+                android:onClick="goToScreen"/>
 
-    <org.osmdroid.views.MapView
-        android:id="@+id/map"
-        android:layout_width="388dp"
-        android:layout_height="633dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="151dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Ciências Safe"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </LinearLayout>
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="388dp"
+            android:layout_height="633dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" /> -->
+</androidx.drawerlayout.widget.DrawerLayout>

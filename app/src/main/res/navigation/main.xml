@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/homepageFragment">
+
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.example.cienciassafe.HomepageFragment"
+        android:label="Ciências Safe"
+        tools:layout="@layout/fragment_homepage" />
+
+    <fragment
+        android:id="@+id/classroomsFragment"
+        android:name="com.example.cienciassafe.ClassroomsFragment"
+        android:label="Lista de Salas"
+        tools:layout="@layout/fragment_classrooms" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.example.cienciassafe.ReportFragment"
+        android:label="Reportar falta de recursos"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cienciassafe.AboutFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/covidFragment"
+        android:name="com.example.cienciassafe.CovidFragment"
+        android:label="COVID-19 em Ciências"
+        tools:layout="@layout/fragment_covid" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.cienciassafe.HistoryFragment"
+        android:label="Histórico de localização"
+        tools:layout="@layout/fragment_history" />
+</navigation>

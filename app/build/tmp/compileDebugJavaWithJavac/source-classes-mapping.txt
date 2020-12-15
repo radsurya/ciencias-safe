@@ -1,12 +1,28 @@
-com/example/cienciassafe/LocalizationHistoric.java
- com.example.cienciassafe.LocalizationHistoric
 com/example/cienciassafe/Classrooms.java
  com.example.cienciassafe.Classrooms
-com/example/cienciassafe/MainActivity.java
- com.example.cienciassafe.MainActivity
 com/example/cienciassafe/ReportResource.java
  com.example.cienciassafe.ReportResource
+com/example/cienciassafe/AboutFragment.java
+ com.example.cienciassafe.AboutFragment
 com/example/cienciassafe/BuildConfig.java
  com.example.cienciassafe.BuildConfig
+com/example/cienciassafe/ClassroomsFragment.java
+ com.example.cienciassafe.ClassroomsFragment
 com/example/cienciassafe/Menu.java
  com.example.cienciassafe.Menu
+com/example/cienciassafe/HistoryFragment.java
+ com.example.cienciassafe.HistoryFragment
+com/example/cienciassafe/CovidFragment.java
+ com.example.cienciassafe.CovidFragment
+com/example/cienciassafe/LocalizationHistoric.java
+ com.example.cienciassafe.LocalizationHistoric
+com/example/cienciassafe/MainActivity.java
+ com.example.cienciassafe.MainActivity
+ com.example.cienciassafe.MainActivity$1
+ com.example.cienciassafe.MainActivity$2
+com/example/cienciassafe/HomepageFragment.java
+ com.example.cienciassafe.HomepageFragment
+com/example/cienciassafe/MapActivity.java
+ com.example.cienciassafe.MapActivity
+com/example/cienciassafe/ReportFragment.java
+ com.example.cienciassafe.ReportFragment

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homepageFragment"
+        android:icon="@drawable/ic_room"
+        android:title="Início" />
+
+    <item
+        android:id="@+id/classroomsFragment"
+        android:icon="@drawable/ic_room"
+        android:title="Lista de salas" />
+
+    <item
+        android:id="@+id/reportFragment"
+        android:icon="@drawable/ic_room"
+        android:title="Reportar falta de recursos" />
+
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_room"
+        android:title="Histórico da localização" />
+
+    <item
+        android:id="@+id/covidFragment"
+        android:icon="@drawable/ic_room"
+        android:title="COVID-19 em Ciências" />
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_room"
+        android:title="Sobre" />
+</menu>
