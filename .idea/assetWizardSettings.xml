@@ -316,7 +316,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio1/plugins/android/lib/android.jar!/images/material/icons/materialicons/meeting_room/baseline_meeting_room_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Radica%20Giva/AppData/Local/Android/Sdk/icons/material/materialicons/history/baseline_history_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -327,7 +327,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="1f36ac" />
-                            <entry key="outputName" value="ic_room" />
+                            <entry key="outputName" value="ic_baseline_history_24" />
                             <entry key="sourceFile" value="C:\Users\Radica Giva\AndroidStudioProjects\ciencias-safe" />
                           </map>
                         </option>

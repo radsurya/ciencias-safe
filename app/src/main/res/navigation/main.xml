@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/classroomsFragment"
         android:name="com.example.cienciassafe.ClassroomsFragment"
-        android:label="Lista de Salas"
+        android:label="Lista de salas"
         tools:layout="@layout/fragment_classrooms" />
     <fragment
         android:id="@+id/reportFragment"
