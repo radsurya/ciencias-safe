@@ -40,6 +40,7 @@ public class HomepageFragment extends Fragment {
     private CompassOverlay mCompassOverlay;
     private LocationManager lm;
     private GeoPoint startPoint;
+    private View v = null;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -86,6 +87,9 @@ public class HomepageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         System.out.println("-------------- TESTE 2");
+
+        v = (View) inflater.inflate(R.layout.fragment_homepage, container, false);
+
         context = getActivity();
         Configuration.getInstance().load(context, PreferenceManager.getDefaultSharedPreferences(context));
 
@@ -96,10 +100,10 @@ public class HomepageFragment extends Fragment {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE
         });
 
-        // setupMap();
+        setupMap();
 
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_homepage, container, false);
+        return v;
     }
 
     @Override
@@ -148,8 +152,9 @@ public class HomepageFragment extends Fragment {
     }
 
     private void setupMap() {
+        map = (MapView) v.findViewById(R.id.map);
+
         if (map != null) {
-            map = (MapView) getActivity().findViewById(R.id.map);
             map.setTileSource(TileSourceFactory.MAPNIK);
             map.setMultiTouchControls(true);
 
