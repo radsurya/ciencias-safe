@@ -1884,6 +1884,7 @@ id linearLayout2
 id listMode
 id list_item
 id main
+id map
 id masked
 id media_actions
 id menu_button

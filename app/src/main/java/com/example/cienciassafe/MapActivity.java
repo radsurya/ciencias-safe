@@ -87,7 +87,6 @@ public class MapActivity extends Activity {
             startPoint =  new GeoPoint(latTemp, longTemp);
             mapController.setCenter(startPoint);
         }
-
     }
 
     @Override
