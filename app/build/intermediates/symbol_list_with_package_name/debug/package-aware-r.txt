@@ -56,6 +56,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array list_buildings
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -173,6 +174,7 @@ attr buttonCompat
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
+attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
@@ -214,6 +216,7 @@ attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
+attr circleCrop
 attr circleRadius
 attr clickAction
 attr closeIcon
@@ -246,6 +249,7 @@ attr colorPrimary
 attr colorPrimaryDark
 attr colorPrimarySurface
 attr colorPrimaryVariant
+attr colorScheme
 attr colorSecondary
 attr colorSecondaryVariant
 attr colorSurface
@@ -456,6 +460,8 @@ attr iconStartPadding
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr inactiveTickColor
 attr inactiveTrackColor
@@ -714,6 +720,7 @@ attr riv_tile_mode_y
 attr round
 attr roundPercent
 attr saturation
+attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -982,6 +989,17 @@ color colorPrimary
 color colorPrimaryDark
 color colorPrimaryText
 color colorWhite
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1593,13 +1611,36 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable camera_icon
 drawable center
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable df
+drawable fb
 drawable fcul_logo
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable hamburguer_menu
 drawable ic_about
 drawable ic_bluetooth_off
@@ -1626,6 +1667,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_report
 drawable ic_room
+drawable ic_settings
 drawable marker_default
 drawable marker_default_focused_base
 drawable menu_white
@@ -1662,6 +1704,7 @@ drawable osm_ic_follow_me_on
 drawable osm_ic_ic_map_ortho
 drawable person
 drawable previous
+drawable rg
 drawable round_navigation_white_48
 drawable sharp_add_black_36
 drawable sharp_remove_black_36
@@ -1741,6 +1784,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adjust_height
+id adjust_width
 id alertTitle
 id aligned
 id all
@@ -1766,6 +1811,7 @@ id bubble_image
 id bubble_moreinfo
 id bubble_subdescription
 id bubble_title
+id buildings
 id button
 id button2
 id button3
@@ -1805,6 +1851,7 @@ id covidFragment
 id custom
 id customPanel
 id cut
+id dark
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1858,6 +1905,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id group
 id group_divider
 id grouping
 id groups
@@ -1869,11 +1917,15 @@ id homepageFragment
 id honorRequest
 id icon
 id icon_group
+id icon_only
 id ifRoom
 id ignore
 id ignoreRequest
 id image
 id imageMenu
+id image_student_1
+id image_student_2
+id image_student_3
 id info
 id invisible
 id italic
@@ -1885,6 +1937,7 @@ id largeLabel
 id layout
 id layoutToolBar
 id left
+id light
 id line1
 id line3
 id linear
@@ -1975,6 +2028,7 @@ id reverseSawtooth
 id right
 id right_icon
 id right_side
+id rooms
 id rounded
 id save_non_transition_alpha
 id save_overlay_view
@@ -1998,6 +2052,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settingsFragment
 id shortcut
 id showCustom
 id showHome
@@ -2031,6 +2086,9 @@ id statusBluetoothTv
 id status_bar_latest_event_content
 id stop
 id stretch
+id student_1
+id student_2
+id student_3
 id submenuarrow
 id submit_area
 id tabMode
@@ -2086,6 +2144,7 @@ id viewSupporter
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id wide
 id withText
 id wrap
 id wrap_content
@@ -2183,6 +2242,7 @@ layout fragment_covid
 layout fragment_history
 layout fragment_homepage
 layout fragment_report
+layout fragment_settings
 layout layout_navigation
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2253,6 +2313,11 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation main
 plurals mtrl_badge_content_description
+string C1
+string C2
+string C4
+string C6
+string C8
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2288,14 +2353,37 @@ string base
 string base_nl
 string bing
 string bottom_sheet_behavior
+string building
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
 string compass
+string covid_19_ciencias
 string cyclemap
+string default_web_client_id
 string define_roundedimageview
+string diogo_frazao
+string diogo_frazao_avatar
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2305,6 +2393,9 @@ string feature_tiles_line_stroke_width
 string feature_tiles_point_radius
 string feature_tiles_polygon_stroke_width
 string fiets_nl
+string filipe_bastias
+string filipe_bastias_avatar
+string firebase_database_url
 string first_fix_message
 string format_distance_feet
 string format_distance_kilometers
@@ -2317,10 +2408,17 @@ string format_distance_only_meter
 string format_distance_only_mile
 string format_distance_only_nautical_mile
 string format_distance_value_unit
+string gcm_defaultSenderId
 string geopackage_db_rollback_suffix
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string group_12
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string hills
+string homepage
 string icon_content_description
 string library_roundedimageview_author
 string library_roundedimageview_authorWebsite
@@ -2331,6 +2429,7 @@ string library_roundedimageview_libraryVersion
 string library_roundedimageview_libraryWebsite
 string library_roundedimageview_licenseId
 string library_roundedimageview_repositoryLink
+string location_history
 string map_mode
 string mapbox
 string mapnik
@@ -2379,14 +2478,21 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string public_transport
+string radica_giva
+string radica_giva_avatar
+string report_resources
 string roads_nl
+string room
+string room_list
 string samples
 string search_menu_title
 string set_mode_hide_me
 string set_mode_offline
 string set_mode_online
 string set_mode_show_me
+string settings
 string snapshot
 string states
 string status_bar_notification_info_overflow
@@ -3151,6 +3257,7 @@ styleable Layout android_orientation android_layout_width android_layout_height 
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom android_checkable backgroundTint backgroundTintMode cornerRadius elevation icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
@@ -3193,6 +3300,7 @@ styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
+styleable SignInButton buttonSize colorScheme scopeUris
 styleable Slider android_value android_stepSize android_valueFrom android_valueTo activeTickColor activeTrackColor floatingLabel haloColor haloRadius inactiveTickColor inactiveTrackColor labelColor thumbColor thumbElevation thumbRadius tickColor trackColor
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha backgroundTint backgroundTintMode elevation maxActionInlineWidth

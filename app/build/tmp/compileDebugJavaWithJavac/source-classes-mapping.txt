@@ -1,13 +1,19 @@
 com/example/cienciassafe/Classrooms.java
  com.example.cienciassafe.Classrooms
+com/example/cienciassafe/SettingsFragment.java
+ com.example.cienciassafe.SettingsFragment
 com/example/cienciassafe/ReportResource.java
  com.example.cienciassafe.ReportResource
 com/example/cienciassafe/AboutFragment.java
  com.example.cienciassafe.AboutFragment
 com/example/cienciassafe/BuildConfig.java
  com.example.cienciassafe.BuildConfig
-com/example/cienciassafe/ClassroomsFragment.java
- com.example.cienciassafe.ClassroomsFragment
+com/example/cienciassafe/BluetoothActivity.java
+ com.example.cienciassafe.BluetoothActivity
+ com.example.cienciassafe.BluetoothActivity$1
+ com.example.cienciassafe.BluetoothActivity$2
+ com.example.cienciassafe.BluetoothActivity$3
+ com.example.cienciassafe.BluetoothActivity$4
 com/example/cienciassafe/Menu.java
  com.example.cienciassafe.Menu
 com/example/cienciassafe/HistoryFragment.java
@@ -27,9 +33,6 @@ com/example/cienciassafe/MapActivity.java
  com.example.cienciassafe.MapActivity
 com/example/cienciassafe/ReportFragment.java
  com.example.cienciassafe.ReportFragment
-com/example/cienciassafe/BluetoothActivity.java
- com.example.cienciassafe.BluetoothActivity
- com.example.cienciassafe.BluetoothActivity$1
- com.example.cienciassafe.BluetoothActivity$2
- com.example.cienciassafe.BluetoothActivity$3
- com.example.cienciassafe.BluetoothActivity$4
+com/example/cienciassafe/ClassroomsFragment.java
+ com.example.cienciassafe.ClassroomsFragment
+ com.example.cienciassafe.ClassroomsFragment$1

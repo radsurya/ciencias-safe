@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="building">Edifícios</string>
+    <string name="room">Sala</string>
+    <string name="group_12">Grupo 12</string>
+    <string name="radica_giva_avatar">Avatar da Radica Giva</string>
+    <string name="filipe_bastias_avatar">Avatar do Filipe Bastias</string>
+    <string name="diogo_frazao_avatar">Avatar do Diogo Frazão</string>
+    <string name="settings">Definições</string>
+    <string name="homepage">Início</string>
+    <string name="room_list">Lista de Salas</string>
+    <string name="report_resources">Reportar Falta de Recursos</string>
+    <string name="location_history">Histórico de Localização</string>
+    <string name="about">Sobre</string>
+    <string name="covid_19_ciencias">COVID-19 em Ciências</string>
+</resources>

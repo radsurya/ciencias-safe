@@ -8,32 +8,36 @@
     <fragment
         android:id="@+id/homepageFragment"
         android:name="com.example.cienciassafe.HomepageFragment"
-        android:label="Ciências Safe"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_homepage" />
-
     <fragment
         android:id="@+id/classroomsFragment"
         android:name="com.example.cienciassafe.ClassroomsFragment"
-        android:label="Lista de salas"
+        android:label="@string/room_list"
         tools:layout="@layout/fragment_classrooms" />
     <fragment
         android:id="@+id/reportFragment"
         android:name="com.example.cienciassafe.ReportFragment"
-        android:label="Reportar falta de recursos"
+        android:label="@string/report_resources"
         tools:layout="@layout/fragment_report" />
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.cienciassafe.AboutFragment"
-        android:label="Sobre"
+        android:label="@string/about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/covidFragment"
         android:name="com.example.cienciassafe.CovidFragment"
-        android:label="COVID-19 em Ciências"
+        android:label="@string/covid_19_ciencias"
         tools:layout="@layout/fragment_covid" />
     <fragment
         android:id="@+id/historyFragment"
         android:name="com.example.cienciassafe.HistoryFragment"
-        android:label="Histórico de localização"
+        android:label="@string/location_history"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.cienciassafe.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
