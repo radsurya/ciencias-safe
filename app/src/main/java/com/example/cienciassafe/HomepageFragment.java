@@ -2,6 +2,7 @@ package com.example.cienciassafe;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
@@ -15,6 +16,7 @@ import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import org.osmdroid.api.IMapController;
 import org.osmdroid.config.Configuration;
@@ -41,6 +43,7 @@ public class HomepageFragment extends Fragment {
     private LocationManager lm;
     private GeoPoint startPoint;
     private View v = null;
+    Button mainBluetoothBtn;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -89,8 +92,22 @@ public class HomepageFragment extends Fragment {
         System.out.println("-------------- TESTE 2");
 
         v = (View) inflater.inflate(R.layout.fragment_homepage, container, false);
-
         context = getActivity();
+
+        mainBluetoothBtn = (Button) v.findViewById(R.id.mainBluetoothBtn);
+        System.out.println("----------------BLUETOOTH 1");
+        if (mainBluetoothBtn != null) {
+            System.out.println("----------------BLUETOOTH 2");
+            mainBluetoothBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    System.out.println("----------------BLUETOOTH 3");
+                    Intent i = new Intent(context, BluetoothActivity.class);
+                    startActivity(i);
+                }
+            });
+        }
+
         Configuration.getInstance().load(context, PreferenceManager.getDefaultSharedPreferences(context));
 
         requestPermissionsIfNecessary(new String[]{

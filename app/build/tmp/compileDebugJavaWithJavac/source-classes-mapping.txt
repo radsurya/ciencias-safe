@@ -22,7 +22,14 @@ com/example/cienciassafe/MainActivity.java
  com.example.cienciassafe.MainActivity$2
 com/example/cienciassafe/HomepageFragment.java
  com.example.cienciassafe.HomepageFragment
+ com.example.cienciassafe.HomepageFragment$1
 com/example/cienciassafe/MapActivity.java
  com.example.cienciassafe.MapActivity
 com/example/cienciassafe/ReportFragment.java
  com.example.cienciassafe.ReportFragment
+com/example/cienciassafe/BluetoothActivity.java
+ com.example.cienciassafe.BluetoothActivity
+ com.example.cienciassafe.BluetoothActivity$1
+ com.example.cienciassafe.BluetoothActivity$2
+ com.example.cienciassafe.BluetoothActivity$3
+ com.example.cienciassafe.BluetoothActivity$4

@@ -1602,6 +1602,8 @@ drawable design_snackbar_background
 drawable fcul_logo
 drawable hamburguer_menu
 drawable ic_about
+drawable ic_bluetooth_off
+drawable ic_bluetooth_on
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_covid
@@ -1756,6 +1758,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id bluetoothIv
 id bottom
 id bounce
 id bubble_description
@@ -1820,6 +1823,7 @@ id direct
 id disableHome
 id disablePostScroll
 id disableScroll
+id discoverableBtn
 id dragDown
 id dragEnd
 id dragLeft
@@ -1889,6 +1893,7 @@ id linearLayout2
 id listMode
 id list_item
 id main
+id mainBluetoothBtn
 id map
 id masked
 id media_actions
@@ -1939,9 +1944,13 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id offBtn
 id on
+id onBtn
 id outline
 id packed
+id pairedBtn
+id pairedTv
 id parallax
 id parent
 id parentPanel
@@ -2018,6 +2027,7 @@ id startHorizontal
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusBluetoothTv
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -2144,6 +2154,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_bluetooth
 layout activity_classrooms
 layout activity_localization_historic
 layout activity_main

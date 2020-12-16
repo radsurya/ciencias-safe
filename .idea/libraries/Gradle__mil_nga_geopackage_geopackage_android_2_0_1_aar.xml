@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: mil.nga.geopackage:geopackage-android:2.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4ce2046f0f4d72dc9067ac799c31740/jetified-geopackage-android-2.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4ce2046f0f4d72dc9067ac799c31740/jetified-geopackage-android-2.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4ce2046f0f4d72dc9067ac799c31740/jetified-geopackage-android-2.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ca29460ece1741334b88fbadb021d30/jetified-geopackage-android-2.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ca29460ece1741334b88fbadb021d30/jetified-geopackage-android-2.0.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ca29460ece1741334b88fbadb021d30/jetified-geopackage-android-2.0.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ca29460ece1741334b88fbadb021d30/jetified-geopackage-android-2.0.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.geopackage/geopackage-android/2.0.1/bcf4eeab4d98f8ab53797a47ee658d95d3b66d04/geopackage-android-2.0.1-javadoc.jar!/" />
