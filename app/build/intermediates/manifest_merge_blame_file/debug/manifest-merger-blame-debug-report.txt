@@ -28,147 +28,160 @@
 16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 16-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:10:5-74
 16-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:10:22-71
-17
-18    <supports-screens
-18-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:11:5-14:40
-19        android:anyDensity="true"
-19-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:12:9-34
-20        android:largeScreens="true"
-20-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:13:9-36
-21        android:normalScreens="true" />
-21-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:14:9-37
-22
-23    <uses-feature
-23-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:16:5-18:36
-24        android:name="android.hardware.location.network"
-24-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:17:9-57
-25        android:required="false" />
-25-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:18:9-33
-26    <uses-feature
-26-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:19:5-21:36
-27        android:name="android.hardware.location.gps"
-27-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:20:9-53
-28        android:required="false" />
-28-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:21:9-33
-29    <uses-feature
-29-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:22:5-24:36
-30        android:name="android.hardware.telephony"
-30-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:23:9-50
-31        android:required="false" />
-31-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:24:9-33
-32    <uses-feature
-32-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:25:5-27:36
-33        android:name="android.hardware.wifi"
-33-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:26:9-45
-34        android:required="false" />
-34-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:27:9-33
-35
-36    <application
-36-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:5-33:19
-37        android:allowBackup="false"
-37-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:12:9-36
-38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.3.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\cdfea8f3da9d3d8e26bbb73a40c2de98\core-1.3.1\AndroidManifest.xml:24:18-86
-39        android:debuggable="true"
-40        android:fullBackupOnly="false"
-40-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:13:9-39
-41        android:label="@string/app_name"
-41-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:14:9-41
-42        android:testOnly="true"
-43        android:theme="@style/AppTheme" >
-43-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:18-49
-44        <activity android:name="com.example.cienciassafe.BluetoothActivity" />
-44-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:13:9-64
-44-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:13:19-52
-45        <activity
-45-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:9-16:50
-46            android:name="com.example.cienciassafe.LocalizationHistoric"
-46-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:15:13-49
-47            android:parentActivityName="com.example.cienciassafe.Menu" />
-47-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:16:13-47
-48        <activity
-48-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:17:9-19:50
-49            android:name="com.example.cienciassafe.ReportResource"
-49-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:18:13-43
-50            android:parentActivityName="com.example.cienciassafe.Menu" />
-50-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:19:13-47
-51        <activity
-51-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:20:9-22:58
-52            android:name="com.example.cienciassafe.Menu"
-52-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:21:13-33
-53            android:parentActivityName="com.example.cienciassafe.MainActivity" />
-53-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:22:13-55
-54        <activity
-54-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:23:9-25:50
-55            android:name="com.example.cienciassafe.Classrooms"
-55-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:24:13-39
-56            android:parentActivityName="com.example.cienciassafe.Menu" />
-56-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:25:13-47
-57        <activity android:name="com.example.cienciassafe.MainActivity" >
-57-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:26:9-32:20
-57-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:26:19-47
-58            <intent-filter>
-58-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:27:13-31:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:17-69
-59-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:25-66
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:17-77
-61-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:27-74
-62            </intent-filter>
-63        </activity>
-64
-65        <service
-65-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
-66            android:name="com.google.firebase.components.ComponentDiscoveryService"
-66-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:31:13-84
-67            android:directBootAware="true"
-67-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
-68            android:exported="false" >
-68-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:32:13-37
-69            <meta-data
-69-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
-70                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-70-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
-72            <meta-data
-72-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
-73                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-73-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
-75        </service>
-76
-77        <provider
-77-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
-78            android:name="com.google.firebase.provider.FirebaseInitProvider"
-78-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
-79            android:authorities="com.example.cienciassafe.firebaseinitprovider"
-79-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
-80            android:directBootAware="true"
-80-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
-81            android:exported="false"
-81-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
-82            android:initOrder="100" />
-82-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
-83
-84        <activity
-84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-88
-89        <meta-data
-89-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-92    </application>
-93
-94</manifest>
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:11:5-65
+17-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:11:22-62
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:22-63
+19
+20    <supports-screens
+20-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:11:5-14:40
+21        android:anyDensity="true"
+21-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:12:9-34
+22        android:largeScreens="true"
+22-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:13:9-36
+23        android:normalScreens="true" />
+23-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:14:9-37
+24
+25    <uses-feature
+25-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.location.network"
+26-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:17:9-57
+27        android:required="false" />
+27-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.location.gps"
+29-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:20:9-53
+30        android:required="false" />
+30-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.telephony"
+32-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:23:9-50
+33        android:required="false" />
+33-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:24:9-33
+34    <uses-feature
+34-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:25:5-27:36
+35        android:name="android.hardware.wifi"
+35-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:26:9-45
+36        android:required="false" />
+36-->[org.osmdroid:osmdroid-android:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7baf93fd639d089100a298786a77714b\jetified-osmdroid-android-6.1.8\AndroidManifest.xml:27:9-33
+37
+38    <application
+38-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-38:19
+39        android:allowBackup="false"
+39-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:12:9-36
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\cdfea8f3da9d3d8e26bbb73a40c2de98\core-1.3.1\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:fullBackupOnly="false"
+42-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:13:9-39
+43        android:label="@string/app_name"
+43-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:14:9-41
+44        android:testOnly="true"
+45        android:theme="@style/AppTheme" >
+45-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:18-49
+46        <activity android:name="com.example.cienciassafe.BluetoothActivity" />
+46-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:15:9-64
+46-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:15:19-52
+47        <activity
+47-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:16:9-18:50
+48            android:name="com.example.cienciassafe.LocalizationHistoric"
+48-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:17:13-49
+49            android:parentActivityName="com.example.cienciassafe.Menu" />
+49-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:18:13-47
+50        <activity
+50-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:19:9-21:50
+51            android:name="com.example.cienciassafe.ReportResource"
+51-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:20:13-43
+52            android:parentActivityName="com.example.cienciassafe.Menu" />
+52-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:21:13-47
+53        <activity
+53-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:22:9-24:58
+54            android:name="com.example.cienciassafe.Menu"
+54-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:23:13-33
+55            android:parentActivityName="com.example.cienciassafe.MainActivity" />
+55-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:24:13-55
+56        <activity
+56-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:25:9-27:50
+57            android:name="com.example.cienciassafe.Classrooms"
+57-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:26:13-39
+58            android:parentActivityName="com.example.cienciassafe.Menu" />
+58-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:27:13-47
+59        <activity android:name="com.example.cienciassafe.MainActivity" >
+59-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:9-34:20
+59-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:19-47
+60            <intent-filter>
+60-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:29:13-33:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:17-69
+61-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:32:17-77
+63-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:32:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <meta-data
+67-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:36:9-37:49
+68            android:name="com.google.android.gms.vision.DEPENDENCIES"
+68-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:36:20-77
+69            android:value="barcode" />
+69-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:37:13-36
+70
+71        <service
+71-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:31:13-84
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:32:13-37
+75            <meta-data
+75-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+76                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+76-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+79-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+81        </service>
+82
+83        <provider
+83-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+84            android:name="com.google.firebase.provider.FirebaseInitProvider"
+84-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+85            android:authorities="com.example.cienciassafe.firebaseinitprovider"
+85-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+87            android:exported="false"
+87-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+88            android:initOrder="100" />
+88-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

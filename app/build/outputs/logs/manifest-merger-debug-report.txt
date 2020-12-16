@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e5ff35c5be8c99afad1d3f4e0d46d627\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:17:1-24:12
@@ -19,6 +19,7 @@ MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\dogaf\.gradle\caches
 MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5bf3bcecd945dd14187a414e48a05213\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\8dc887bf458a28b70e5287098bba9fa7\jetified-play-services-vision-15.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ce9c1c22fab5d58895273b0322acf1df\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:15:1-40:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\2fc8f0a9db7b1c32d84745c03cad3c7d\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -30,7 +31,11 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\d
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\54224c02eb0fcc5851c7966bfab3929d\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4be8cd57484bdd323af627c0bacddf66\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\749f379fcdb6704354aeb477fedddcae\jetified-viewpager2-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ac5a89ddd684363d15117fbf360b22fd\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ef2447393d52531d8cb0f5be1f926c5c\jetified-play-services-clearcut-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\a3c8c568d1dd37fb146af54a67a9e48c\jetified-play-services-flags-15.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4e8649860465951fb6a3481889aafe54\jetified-play-services-phenotype-15.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\2687f413e3b480923e9cfb03ada2cf45\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
@@ -62,20 +67,20 @@ MERGED from [com.google.firebase:firebase-components:16.0.1] C:\Users\dogaf\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\18ea51404843894a6b33202520cfa6b9\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\9940040516d81807becebc8d910443c6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5f9fb9d9cb3b05504a4878522419835b\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:11-69
@@ -113,8 +118,16 @@ uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:10:5-74
 	android:name
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:10:22-71
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:22-63
 application
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:5-33:19
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-38:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
@@ -125,10 +138,18 @@ MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\8dc887bf458a28b70e5287098bba9fa7\jetified-play-services-vision-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\8dc887bf458a28b70e5287098bba9fa7\jetified-play-services-vision-15.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ce9c1c22fab5d58895273b0322acf1df\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ce9c1c22fab5d58895273b0322acf1df\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ef2447393d52531d8cb0f5be1f926c5c\jetified-play-services-clearcut-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ef2447393d52531d8cb0f5be1f926c5c\jetified-play-services-clearcut-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4e8649860465951fb6a3481889aafe54\jetified-play-services-phenotype-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4e8649860465951fb6a3481889aafe54\jetified-play-services-phenotype-15.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\2687f413e3b480923e9cfb03ada2cf45\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
@@ -146,51 +167,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\do
 	android:allowBackup
 		ADDED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:12:9-36
 	android:theme
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:18-49
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:18-49
 	android:fullBackupOnly
 		ADDED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:13:9-39
 activity#com.example.cienciassafe.BluetoothActivity
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:13:9-64
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:15:9-64
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:13:19-52
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:15:19-52
 activity#com.example.cienciassafe.LocalizationHistoric
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:9-16:50
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:16:9-18:50
 	android:parentActivityName
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:16:13-47
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:18:13-47
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:15:13-49
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:17:13-49
 activity#com.example.cienciassafe.ReportResource
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:17:9-19:50
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:19:9-21:50
 	android:parentActivityName
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:19:13-47
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:21:13-47
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:18:13-43
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:20:13-43
 activity#com.example.cienciassafe.Menu
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:20:9-22:58
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:22:9-24:58
 	android:parentActivityName
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:22:13-55
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:24:13-55
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:21:13-33
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:23:13-33
 activity#com.example.cienciassafe.Classrooms
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:23:9-25:50
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:25:9-27:50
 	android:parentActivityName
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:25:13-47
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:27:13-47
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:24:13-39
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:26:13-39
 activity#com.example.cienciassafe.MainActivity
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:36:9-37:49
+	android:value
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:36:20-77
 uses-sdk
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
@@ -225,6 +252,8 @@ MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\8dc887bf458a28b70e5287098bba9fa7\jetified-play-services-vision-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\8dc887bf458a28b70e5287098bba9fa7\jetified-play-services-vision-15.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ce9c1c22fab5d58895273b0322acf1df\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ce9c1c22fab5d58895273b0322acf1df\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:20:5-22:41
@@ -247,8 +276,16 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dogaf\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4be8cd57484bdd323af627c0bacddf66\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\749f379fcdb6704354aeb477fedddcae\jetified-viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\749f379fcdb6704354aeb477fedddcae\jetified-viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ac5a89ddd684363d15117fbf360b22fd\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ac5a89ddd684363d15117fbf360b22fd\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ef2447393d52531d8cb0f5be1f926c5c\jetified-play-services-clearcut-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ef2447393d52531d8cb0f5be1f926c5c\jetified-play-services-clearcut-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\a3c8c568d1dd37fb146af54a67a9e48c\jetified-play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\a3c8c568d1dd37fb146af54a67a9e48c\jetified-play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4e8649860465951fb6a3481889aafe54\jetified-play-services-phenotype-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4e8649860465951fb6a3481889aafe54\jetified-play-services-phenotype-15.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\2687f413e3b480923e9cfb03ada2cf45\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44

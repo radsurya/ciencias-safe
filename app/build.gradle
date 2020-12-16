@@ -52,4 +52,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.google.code.gson:gson:2.8.5'
 
+    //Qr code
+    implementation 'com.google.android.gms:play-services-vision:15.0.0'
+
 }
