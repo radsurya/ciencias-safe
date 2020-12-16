@@ -14,20 +14,20 @@
         <item>@string/C6</item>
         <item>@string/C8</item>
     </string-array>
-    <string name="building">Buildings</string>
-    <string name="room">Room</string>
-    <string name="group_12">Group 12</string>
+    <string name="building">Edifícios</string>
+    <string name="room">Sala</string>
+    <string name="group_12">Grupo 12</string>
     <string name="diogo_frazao" translatable="false">Diogo Frazão</string>
     <string name="filipe_bastias" translatable="false">Filipe Bastias</string>
     <string name="radica_giva" translatable="false">Radica Giva</string>
-    <string name="diogo_frazao_avatar">Diogo Frazão\'s Avatar</string>
-    <string name="filipe_bastias_avatar">Filipe Bastias\' Avatar</string>
-    <string name="radica_giva_avatar">Radica Giva\'s Avatar</string>
-    <string name="homepage">Homepage</string>
-    <string name="room_list">Room List</string>
-    <string name="report_resources">Report Missing Resources</string>
-    <string name="location_history">Location History</string>
-    <string name="covid_19_ciencias">COVID-19 in Ciências</string>
-    <string name="about">About</string>
-    <string name="settings">Settings</string>
+    <string name="diogo_frazao_avatar">Avatar do Diogo Frazão</string>
+    <string name="filipe_bastias_avatar">Avatar do Filipe Bastias</string>
+    <string name="radica_giva_avatar">Avatar da Radica Giva</string>
+    <string name="homepage">Início</string>
+    <string name="room_list">Lista de Salas</string>
+    <string name="report_resources">Reportar Falta de Recursos</string>
+    <string name="location_history">Histórico de Localização</string>
+    <string name="covid_19_ciencias">COVID-19 em Ciências</string>
+    <string name="about">Sobre</string>
+    <string name="settings">Definições</string>
 </resources>

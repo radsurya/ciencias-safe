@@ -27,9 +27,8 @@ com/example/cienciassafe/MainActivity.java
  com.example.cienciassafe.MainActivity
  com.example.cienciassafe.MainActivity$1
  com.example.cienciassafe.MainActivity$2
-com/example/cienciassafe/HomepageFragment.java
- com.example.cienciassafe.HomepageFragment
- com.example.cienciassafe.HomepageFragment$1
+com/example/cienciassafe/CovidFragment.java
+ com.example.cienciassafe.CovidFragment
 com/example/cienciassafe/MapActivity.java
  com.example.cienciassafe.MapActivity
 com/example/cienciassafe/ReportFragment.java
@@ -37,5 +36,7 @@ com/example/cienciassafe/ReportFragment.java
  com.example.cienciassafe.ReportFragment$1
  com.example.cienciassafe.ReportFragment$2
  com.example.cienciassafe.ReportFragment$2$1
-com/example/cienciassafe/CovidFragment.java
- com.example.cienciassafe.CovidFragment
+com/example/cienciassafe/HomepageFragment.java
+ com.example.cienciassafe.HomepageFragment
+ com.example.cienciassafe.HomepageFragment$1
+ com.example.cienciassafe.HomepageFragment$2
