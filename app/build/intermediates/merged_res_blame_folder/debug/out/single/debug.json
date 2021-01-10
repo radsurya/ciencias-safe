@@ -20,6 +20,10 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
     },
@@ -302,6 +306,10 @@
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_report.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_report.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_classroom_card.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\classroom_card.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_fcul_logo_round.png.flat",

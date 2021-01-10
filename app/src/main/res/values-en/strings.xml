@@ -14,4 +14,18 @@
     <string name="location_history">Location History</string>
     <string name="about">About</string>
     <string name="covid_19_ciencias">COVID-19 in Ciências</string>
+    <string name="classroom_empty">Occupation: Empty</string>
+    <string name="classroom_almost_empty">Occupation: Almost Empty</string>
+    <string name="classroom_almost_full">Occupation: Almost Full</string>
+    <string name="classroom_full">Occupation: Full</string>
+    <string name="classroom_no_info">Occupation: No Information</string>
+    <string name="classroom_error">Occupation: There was an error getting the information.</string>
+    <string name="report_occupation">Report Occupation</string>
+    <string name="occupation">Occupation</string>
+    <string name="full">Full</string>
+    <string name="almost_full">Almost Full</string>
+    <string name="almost_empty">Almost Empty</string>
+    <string name="empty">Empty</string>
+    <string name="report">Report</string>
+    <string name="cancel">Cancel</string>
 </resources>

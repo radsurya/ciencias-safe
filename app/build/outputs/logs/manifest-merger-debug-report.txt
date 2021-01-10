@@ -4,9 +4,9 @@ ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\Andro
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e5ff35c5be8c99afad1d3f4e0d46d627\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\f65e7d690d0436991c66205f0487ed30\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [org.osmdroid:osmdroid-wms:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80ba3cb28335fdfaf81e1515b6e06bc0\jetified-osmdroid-wms-6.1.8\AndroidManifest.xml:2:1-12:12
 MERGED from [org.osmdroid:osmdroid-mapsforge:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\bc17c13907a881ced9996b4b2986155d\jetified-osmdroid-mapsforge-6.1.8\AndroidManifest.xml:2:1-12:12
@@ -26,11 +26,12 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dogaf\.gradl
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9b32f1278a4b3f1620db3345b7e4d0b\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\82bb583f0faf8eb0f3dc9e0e707cb382\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\047d4c7efcf66a3b125d82d67dc2e5ec\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\646f0b8627a03b159949043bcfe34b7d\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4805fe0bd4112533a6a43544f21931f8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\3ef40126f191dafaa363aeb1b7d9f92b\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\45eb043f3637cb8e1668c487e8ef65e2\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\54224c02eb0fcc5851c7966bfab3929d\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4be8cd57484bdd323af627c0bacddf66\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\749f379fcdb6704354aeb477fedddcae\jetified-viewpager2-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7e380442aa008f02ce976f99cab9e58a\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ac5a89ddd684363d15117fbf360b22fd\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ef2447393d52531d8cb0f5be1f926c5c\jetified-play-services-clearcut-15.0.1\AndroidManifest.xml:17:1-24:12
@@ -44,7 +45,7 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\dogaf\.gradle\ca
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\acc18df6be43846fb1bddfeadba574a7\transition-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\f046aa3367043922c8e066525c0df9e1\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\35d6768667053cd8bc94b84c6fa3b678\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\083cf84cd901fd61772e980688173ee4\recyclerview-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b8ee54378c52650838ddb3b0567cade3\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c187b2f3cefabbf75d60ea7ed79ce3a3\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\828e9e3cd00c64963bd14381033de3d1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\3467d450b76dd5e7b79c55f485a7f3f8\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -67,6 +68,7 @@ MERGED from [com.google.firebase:firebase-components:16.0.1] C:\Users\dogaf\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\18ea51404843894a6b33202520cfa6b9\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\9940040516d81807becebc8d910443c6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5f9fb9d9cb3b05504a4878522419835b\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\57b5ae7b4c1e8222c5e1793edd39aefa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-40:12
@@ -128,10 +130,10 @@ ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\Andro
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:22-63
 application
 ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-38:19
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
 MERGED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:11:5-15:19
 MERGED from [mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
@@ -222,12 +224,12 @@ uses-sdk
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e5ff35c5be8c99afad1d3f4e0d46d627\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e5ff35c5be8c99afad1d3f4e0d46d627\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c20b1d5a69ef6cc87781cfc92d297ab9\material-1.2.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\f65e7d690d0436991c66205f0487ed30\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\f65e7d690d0436991c66205f0487ed30\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [org.osmdroid:osmdroid-wms:6.1.8] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80ba3cb28335fdfaf81e1515b6e06bc0\jetified-osmdroid-wms-6.1.8\AndroidManifest.xml:8:5-10:41
@@ -266,16 +268,18 @@ MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\dogaf\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\82bb583f0faf8eb0f3dc9e0e707cb382\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\047d4c7efcf66a3b125d82d67dc2e5ec\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\047d4c7efcf66a3b125d82d67dc2e5ec\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\646f0b8627a03b159949043bcfe34b7d\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\646f0b8627a03b159949043bcfe34b7d\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4805fe0bd4112533a6a43544f21931f8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4805fe0bd4112533a6a43544f21931f8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\3ef40126f191dafaa363aeb1b7d9f92b\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\3ef40126f191dafaa363aeb1b7d9f92b\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\45eb043f3637cb8e1668c487e8ef65e2\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\45eb043f3637cb8e1668c487e8ef65e2\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\54224c02eb0fcc5851c7966bfab3929d\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\54224c02eb0fcc5851c7966bfab3929d\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4be8cd57484bdd323af627c0bacddf66\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4be8cd57484bdd323af627c0bacddf66\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\749f379fcdb6704354aeb477fedddcae\jetified-viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\749f379fcdb6704354aeb477fedddcae\jetified-viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7e380442aa008f02ce976f99cab9e58a\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\7e380442aa008f02ce976f99cab9e58a\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b3bf500b1ef82b8a9aae20bb7a1d5b24\jetified-play-services-vision-common-15.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\ac5a89ddd684363d15117fbf360b22fd\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
@@ -302,8 +306,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dogaf\.gradle\caches\t
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\f046aa3367043922c8e066525c0df9e1\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\35d6768667053cd8bc94b84c6fa3b678\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\35d6768667053cd8bc94b84c6fa3b678\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\083cf84cd901fd61772e980688173ee4\recyclerview-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\083cf84cd901fd61772e980688173ee4\recyclerview-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b8ee54378c52650838ddb3b0567cade3\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\b8ee54378c52650838ddb3b0567cade3\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c187b2f3cefabbf75d60ea7ed79ce3a3\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c187b2f3cefabbf75d60ea7ed79ce3a3\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\828e9e3cd00c64963bd14381033de3d1\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -348,6 +352,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\dogaf\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\9940040516d81807becebc8d910443c6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5f9fb9d9cb3b05504a4878522419835b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5f9fb9d9cb3b05504a4878522419835b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\57b5ae7b4c1e8222c5e1793edd39aefa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\57b5ae7b4c1e8222c5e1793edd39aefa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

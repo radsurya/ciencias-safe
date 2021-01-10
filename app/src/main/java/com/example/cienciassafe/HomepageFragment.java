@@ -185,8 +185,8 @@ public class HomepageFragment extends Fragment {
                 int longTemp = (int)(lastKnownLoc.getLongitude()* 1000000);
                 int latTemp = (int)(lastKnownLoc.getLatitude() * 1000000);
                 IMapController mapController = map.getController();
-                System.out.println("--------------ZOOM");
-                mapController.setZoom(10);
+                System.out.println("--------------ZOOM 20");
+                mapController.setZoom(20);
                 startPoint =  new GeoPoint(latTemp, longTemp);
                 mapController.setCenter(startPoint);
             }
