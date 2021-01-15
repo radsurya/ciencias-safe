@@ -7,10 +7,11 @@ android {
 
     defaultConfig {
         applicationId "com.example.cienciassafe"
-        minSdkVersion 16
+        minSdkVersion 18
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -54,5 +55,9 @@ dependencies {
 
     //Qr code
     implementation 'com.google.android.gms:play-services-vision:15.0.0'
+
+    // Estimote
+    implementation 'com.estimote:proximity-sdk:1.0.3'
+    implementation 'com.estimote:mustard:0.2.1'
 
 }
