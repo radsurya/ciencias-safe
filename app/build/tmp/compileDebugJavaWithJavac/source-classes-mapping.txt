@@ -1,30 +1,33 @@
-com/example/cienciassafe/BluetoothActivity.java
- com.example.cienciassafe.BluetoothActivity
- com.example.cienciassafe.BluetoothActivity$1
- com.example.cienciassafe.BluetoothActivity$2
- com.example.cienciassafe.BluetoothActivity$3
- com.example.cienciassafe.BluetoothActivity$4
+com/example/cienciassafe/ClassroomRecyclerViewAdapter.java
+ com.example.cienciassafe.ClassroomRecyclerViewAdapter
+ com.example.cienciassafe.ClassroomRecyclerViewAdapter$1
+ com.example.cienciassafe.ClassroomRecyclerViewAdapter$1$1
 com/example/cienciassafe/Classrooms.java
  com.example.cienciassafe.Classrooms
 com/example/cienciassafe/SettingsFragment.java
  com.example.cienciassafe.SettingsFragment
+com/example/cienciassafe/CovidReportRecyclerViewAdapter.java
+ com.example.cienciassafe.CovidReportRecyclerViewAdapter
 com/example/cienciassafe/ReportResource.java
  com.example.cienciassafe.ReportResource
 com/example/cienciassafe/AboutFragment.java
  com.example.cienciassafe.AboutFragment
 com/example/cienciassafe/BuildConfig.java
  com.example.cienciassafe.BuildConfig
-com/example/cienciassafe/ReportFragment.java
- com.example.cienciassafe.ReportFragment
- com.example.cienciassafe.ReportFragment$1
- com.example.cienciassafe.ReportFragment$2
- com.example.cienciassafe.ReportFragment$2$1
+com/example/cienciassafe/ClassroomsFragment.java
+ com.example.cienciassafe.ClassroomsFragment
+ com.example.cienciassafe.ClassroomsFragment$1
+ com.example.cienciassafe.ClassroomsFragment$1$1
 com/example/cienciassafe/Menu.java
  com.example.cienciassafe.Menu
 com/example/cienciassafe/HistoryFragment.java
  com.example.cienciassafe.HistoryFragment
-com/example/cienciassafe/CovidFragment.java
- com.example.cienciassafe.CovidFragment
+com/example/cienciassafe/BluetoothActivity.java
+ com.example.cienciassafe.BluetoothActivity
+ com.example.cienciassafe.BluetoothActivity$1
+ com.example.cienciassafe.BluetoothActivity$2
+ com.example.cienciassafe.BluetoothActivity$3
+ com.example.cienciassafe.BluetoothActivity$4
 com/example/cienciassafe/ClassroomCardViewHolder.java
  com.example.cienciassafe.ClassroomCardViewHolder
 com/example/cienciassafe/LocalizationHistoric.java
@@ -33,16 +36,20 @@ com/example/cienciassafe/MainActivity.java
  com.example.cienciassafe.MainActivity
  com.example.cienciassafe.MainActivity$1
  com.example.cienciassafe.MainActivity$2
+com/example/cienciassafe/CovidReportCardViewHolder.java
+ com.example.cienciassafe.CovidReportCardViewHolder
 com/example/cienciassafe/HomepageFragment.java
  com.example.cienciassafe.HomepageFragment
  com.example.cienciassafe.HomepageFragment$1
 com/example/cienciassafe/MapActivity.java
  com.example.cienciassafe.MapActivity
-com/example/cienciassafe/MyRecyclerViewAdapter.java
- com.example.cienciassafe.MyRecyclerViewAdapter
- com.example.cienciassafe.MyRecyclerViewAdapter$1
- com.example.cienciassafe.MyRecyclerViewAdapter$1$1
-com/example/cienciassafe/ClassroomsFragment.java
- com.example.cienciassafe.ClassroomsFragment
- com.example.cienciassafe.ClassroomsFragment$1
- com.example.cienciassafe.ClassroomsFragment$1$1
+com/example/cienciassafe/ReportFragment.java
+ com.example.cienciassafe.ReportFragment
+ com.example.cienciassafe.ReportFragment$1
+ com.example.cienciassafe.ReportFragment$2
+ com.example.cienciassafe.ReportFragment$2$1
+com/example/cienciassafe/CovidFragment.java
+ com.example.cienciassafe.CovidFragment
+ com.example.cienciassafe.CovidFragment$1
+ com.example.cienciassafe.CovidFragment$1$1
+ com.example.cienciassafe.CovidFragment$2

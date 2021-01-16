@@ -38,10 +38,24 @@
     <string name="almost_empty">Quase Vazia</string>
     <string name="almost_full">Quase Cheia</string>
     <string name="full">Cheia</string>
-    <string name="classroom_no_info">Ocupação: Sem Informação</string>
+    <string name="classroom_no_info">"Ocupação: Não existe informação recente para esta sala. "</string>
     <string name="classroom_error">Ocupação: Houve um erro a ir buscar a informação.</string>
     <string name="report_occupation">Reportar Ocupação</string>
     <string name="occupation">Ocupação</string>
     <string name="report">Reportar</string>
     <string name="cancel">Cancelar</string>
+    <string name="diogo_frazao_number" translatable="false">51595</string>
+    <string name="filipe_bastias_number" translatable="false">55726</string>
+    <string name="radica_giva_number" translatable="false">44311</string>
+    <string name="order_by">Ordenar por:</string>
+    <string name="ascending_date">Data Ascendente</string>
+    <string name="descending_date">Data Descendente</string>
+    <string-array name="order">
+        <item>@string/ascending_date</item>
+        <item>@string/descending_date</item>
+    </string-array>
+    <string name="week">Semana: %1$s</string>
+    <string name="confirmed_cases">N° de novos casos confirmados: %1$s</string>
+    <string name="high_risk">N° de novos contactos de alto risco: %1$s</string>
+    <string name="tests">N° de testes: %1$s</string>
 </resources>

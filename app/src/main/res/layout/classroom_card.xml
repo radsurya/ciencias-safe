@@ -19,22 +19,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:paddingHorizontal="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="0dp">
             ​
             <!-- Title, secondary and supporting text -->
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/room"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Title"
+                android:text="Room"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 />
             <TextView
-                android:id="@+id/secondary_text"
+                android:id="@+id/occupancy_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Secondary Text"
+                android:text="Occupancy Text"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                />
+
+            <TextView
+                android:id="@+id/last_reported_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Last Reported Text"
                 android:textAppearance="?attr/textAppearanceBody2"
                 android:textColor="?android:attr/textColorSecondary"
                 />
@@ -56,15 +68,6 @@
                 android:text="@string/report_occupation"
                 style="?attr/materialButtonOutlinedStyle"
                 android:layout_marginRight="8dp" />
-
-            <!--
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Action 2"
-                style="?attr/materialButtonOutlinedStyle"
-                />
-            -->
 
         </LinearLayout>
         ​

@@ -18,7 +18,7 @@
     <string name="classroom_almost_empty">Occupation: Almost Empty</string>
     <string name="classroom_almost_full">Occupation: Almost Full</string>
     <string name="classroom_full">Occupation: Full</string>
-    <string name="classroom_no_info">Occupation: No Information</string>
+    <string name="classroom_no_info">Occupation: There isn\'t recent information for this room.</string>
     <string name="classroom_error">Occupation: There was an error getting the information.</string>
     <string name="report_occupation">Report Occupation</string>
     <string name="occupation">Occupation</string>
@@ -28,4 +28,11 @@
     <string name="empty">Empty</string>
     <string name="report">Report</string>
     <string name="cancel">Cancel</string>
+    <string name="order_by">Order by:</string>
+    <string name="ascending_date">Ascending Date</string>
+    <string name="descending_date">Descending Date</string>
+    <string name="week">Week: %1$s</string>
+    <string name="tests">No. of tests: %1$s</string>
+    <string name="high_risk">No. of new high-risk contacts: %1$s</string>
+    <string name="confirmed_cases">No. of new confirmed cases: %1$s</string>
 </resources>

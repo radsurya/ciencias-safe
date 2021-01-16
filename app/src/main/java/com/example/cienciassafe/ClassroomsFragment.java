@@ -6,19 +6,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.LinearLayout;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -33,8 +27,9 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  */
 public class ClassroomsFragment extends Fragment {
-    String[] buildings = null;
     private View v = null;
+    String[] buildings = null;
+
     public ClassroomsFragment() {
         // Required empty public constructor
     }
@@ -42,6 +37,7 @@ public class ClassroomsFragment extends Fragment {
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
+     *
      * @return A new instance of fragment ClassroomsFragment.
      */
     // TODO: Rename and change types and number of parameters
@@ -58,14 +54,15 @@ public class ClassroomsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        buildings = getActivity().getResources().getStringArray(R.array.list_buildings);
         v = (View) inflater.inflate(R.layout.fragment_classrooms, container, false);
-        RecyclerView recyclerView = v.findViewById(R.id.recycler_view);
-        MyRecyclerViewAdapter recyclerViewAdapter;
+        buildings = getActivity().getResources().getStringArray(R.array.list_buildings);
 
         if (v != null) {
+
             AutoCompleteTextView dropdown = v.findViewById(R.id.menu_rooms);
+
             if (dropdown != null) {
+
                 ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item, buildings);
                 dropdown.setAdapter(arrayAdapter);
                 dropdown.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -90,7 +87,7 @@ public class ClassroomsFragment extends Fragment {
 
                                     RecyclerView recyclerView = v.findViewById(R.id.recycler_view);
                                     recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 1, GridLayoutManager.VERTICAL, false));
-                                    MyRecyclerViewAdapter recyclerViewAdapter = new MyRecyclerViewAdapter(classrooms);
+                                    ClassroomRecyclerViewAdapter recyclerViewAdapter = new ClassroomRecyclerViewAdapter(classrooms);
                                     recyclerView.setAdapter(recyclerViewAdapter);
                                 }
                             }

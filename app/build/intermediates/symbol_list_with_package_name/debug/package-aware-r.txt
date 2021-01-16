@@ -62,6 +62,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array list_buildings
+array order
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1963,6 +1964,7 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id confirm_button
+id confirmed_cases
 id container
 id content
 id contentPanel
@@ -2039,6 +2041,7 @@ id groups
 id guideline
 id header_title
 id hideable
+id high_risk
 id historyFragment
 id home
 id homeAsUp
@@ -2052,9 +2055,6 @@ id ignore
 id ignoreRequest
 id image
 id imageMenu
-id image_student_1
-id image_student_2
-id image_student_3
 id info
 id invisible
 id inward
@@ -2065,6 +2065,7 @@ id jumpToStart
 id labelGroup
 id labeled
 id largeLabel
+id last_reported_text
 id layout
 id layoutToolBar
 id left
@@ -2103,6 +2104,7 @@ id material_value_index
 id media_actions
 id menu_button
 id menu_logo_img
+id menu_order
 id menu_rooms
 id message
 id middle
@@ -2151,6 +2153,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id occupancy_text
 id off
 id offBtn
 id on
@@ -2186,6 +2189,7 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id room
 id rounded
 id row_index_key
 id save_non_transition_alpha
@@ -2208,7 +2212,6 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id secondary_text
 id select_dialog_listview
 id selected
 id selection_type
@@ -2246,9 +2249,6 @@ id statusBluetoothTv
 id status_bar_latest_event_content
 id stop
 id stretch
-id student_1
-id student_2
-id student_3
 id submenuarrow
 id submit_area
 id tabMode
@@ -2264,6 +2264,7 @@ id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
+id tests
 id text
 id text2
 id textEnd
@@ -2311,7 +2312,7 @@ id viewSupporter
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
-id webview
+id week
 id wide
 id withText
 id withinBounds
@@ -2391,6 +2392,7 @@ layout activity_menu
 layout activity_report_resource
 layout bonuspack_bubble
 layout classroom_card
+layout covid_report_card
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2539,6 +2541,7 @@ string almost_empty
 string almost_full
 string app_name
 string appbar_scrolling_view_behavior
+string ascending_date
 string base
 string base_nl
 string bing
@@ -2576,12 +2579,15 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string compass
+string confirmed_cases
 string covid_19_ciencias
 string cyclemap
 string default_web_client_id
 string define_roundedimageview
+string descending_date
 string diogo_frazao
 string diogo_frazao_avatar
+string diogo_frazao_number
 string empty
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2594,6 +2600,7 @@ string feature_tiles_polygon_stroke_width
 string fiets_nl
 string filipe_bastias
 string filipe_bastias_avatar
+string filipe_bastias_number
 string firebase_database_url
 string first_fix_message
 string format_distance_feet
@@ -2617,6 +2624,7 @@ string google_storage_bucket
 string group_12
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string high_risk
 string hills
 string homepage
 string icon_content_description
@@ -2691,6 +2699,7 @@ string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string occupation
 string offline
+string order_by
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2700,6 +2709,7 @@ string project_id
 string public_transport
 string radica_giva
 string radica_giva_avatar
+string radica_giva_number
 string report
 string report_occupation
 string report_resources
@@ -2716,6 +2726,7 @@ string settings
 string snapshot
 string states
 string status_bar_notification_info_overflow
+string tests
 string tile_generator_variable_max_lat
 string tile_generator_variable_max_lon
 string tile_generator_variable_min_lat
@@ -2725,6 +2736,7 @@ string tile_generator_variable_y
 string tile_generator_variable_z
 string topo
 string unknown
+string week
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3004,6 +3016,7 @@ style ShapeAppearance_MaterialComponents_SmallComponent
 style ShapeAppearance_MaterialComponents_Test
 style ShapeAppearance_MaterialComponents_Tooltip
 style ShapeAppearanceOverlay
+style ShapeAppearanceOverlay_App_Card_Media
 style ShapeAppearanceOverlay_BottomLeftDifferentCornerSize
 style ShapeAppearanceOverlay_BottomRightCut
 style ShapeAppearanceOverlay_Cut
