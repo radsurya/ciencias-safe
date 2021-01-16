@@ -36,7 +36,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../Radica%20Giva/AppData/Local/Android/Sdk/icons/material/materialicons/bluetooth_disabled/baseline_bluetooth_disabled_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/Radica%20Giva/AppData/Local/Android/Sdk/icons/material/materialicons/bluetooth_disabled/baseline_bluetooth_disabled_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -340,7 +340,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/D:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/settings/baseline_settings_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../Filipe%20Bastias/AppData/Local/Android/Sdk/icons/material/materialicons/info/baseline_info_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -351,7 +351,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="1f36ac" />
-                            <entry key="outputName" value="ic_settings" />
+                            <entry key="outputName" value="ic_baseline_info_24" />
                             <entry key="sourceFile" value="C:\Users\Radica Giva\AndroidStudioProjects\ciencias-safe" />
                           </map>
                         </option>

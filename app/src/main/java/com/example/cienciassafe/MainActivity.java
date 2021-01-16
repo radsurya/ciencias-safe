@@ -15,6 +15,8 @@ import androidx.navigation.ui.NavigationUI;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import com.google.android.material.navigation.NavigationView;
 import java.util.ArrayList;
@@ -36,6 +38,9 @@ import kotlin.jvm.functions.Function0;
 import kotlin.jvm.functions.Function1;
 
 public class MainActivity extends AppCompatActivity {
+
+    private String email, subject, message;
+    private Button button;
 
     private ProximityObserver proximityObserver;
     private ProximityZone zone;
@@ -164,7 +169,32 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
+        senEmail();
+        /* SEND EMAIL */
+        /*email = "EMAIL FCUL DIREÇÃO";
+        subject = "ASSUNTO";
+        message = "TESTE";
+        button = findViewById(R.id.button8);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                senEmail();
+            }
+        });*/
+
         /* End - Handle menu sidebar */
+    }
+
+    private void senEmail() {
+        String mEmail = "filipebastias94@gmail.com";
+        String mSubject = "TESTE";
+        String mMessage = "TESTE";
+
+        Mail javaMailAPI = new Mail(this, mEmail, mSubject, mMessage);
+        System.out.println("TESTE");
+        javaMailAPI.execute();
     }
 
     /* public void goToScreen(View view) {

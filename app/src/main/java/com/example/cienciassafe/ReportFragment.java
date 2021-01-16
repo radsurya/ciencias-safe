@@ -3,10 +3,12 @@ package com.example.cienciassafe;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import android.os.Vibrator;
@@ -16,6 +18,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
@@ -36,6 +39,9 @@ public class ReportFragment extends Fragment {
     CameraSource cameraSource;
     TextView textView;
     BarcodeDetector barcodeDetector;
+
+    private String email, subject, message;
+    private Button button;
 
     public ReportFragment() {
         // Required empty public constructor
@@ -63,10 +69,30 @@ public class ReportFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        // Asks user for camera permission
+        if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA)
+                == PackageManager.PERMISSION_DENIED)
+            ActivityCompat.requestPermissions(getActivity(), new String[] {Manifest.permission.CAMERA}, getTargetRequestCode());
+
         // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_report, container, false);
 
         if (v != null) {
+            /* SEND EMAIL */
+            button = (Button)v.findViewById(R.id.button8);
+            email = "EMAIL FCUL DIREÇÃO";
+            subject = "ASSUNTO";
+            message = "TESTE";
+            //button = findViewById(R.id.button8);
+
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    senEmail();
+                }
+            });
+
             surfaceView = (SurfaceView) v.findViewById(R.id.camerapreview);
             textView = (TextView) v.findViewById(R.id.textView);
 
@@ -126,5 +152,15 @@ public class ReportFragment extends Fragment {
         }
 
         return v;
+    }
+
+    private void senEmail() {
+        String mEmail = email;
+        String mSubject = subject;
+        String mMessage = message;
+
+        Mail javaMailAPI = new Mail(getContext(), mEmail, mSubject, mMessage);
+        System.out.println("EMAIL TESTE");
+        javaMailAPI.execute();
     }
 }
