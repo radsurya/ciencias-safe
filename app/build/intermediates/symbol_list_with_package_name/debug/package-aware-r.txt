@@ -1782,6 +1782,7 @@ drawable ic_report_problem
 drawable ic_room
 drawable ic_settings
 drawable info_message_resource_fragment
+drawable layout_bg
 drawable linkedin
 drawable marker_default
 drawable marker_default_focused_base
