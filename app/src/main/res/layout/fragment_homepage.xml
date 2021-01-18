@@ -20,12 +20,26 @@
         android:text="BLUETOOTH"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ca.hss.heatmaplib.HeatMap
+        android:id="@+id/heatmap"
+        android:layout_width="390dp"
+        android:layout_height="603dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.875"
+        app:maxOpacity="255"
+        app:minOpacity="0"
+        app:radius="100dp"
+        app:maxDrawingWidth="200dp"/>
 
     <org.osmdroid.views.MapView
         android:id="@+id/map"
-        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="100dp" />
 
     <TextView
         android:id="@+id/beaconTitle"

@@ -170,32 +170,21 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        senEmail();
-        /* SEND EMAIL */
-        /*email = "EMAIL FCUL DIREÇÃO";
-        subject = "ASSUNTO";
-        message = "TESTE";
-        button = findViewById(R.id.button8);
+        //senEmail();
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                senEmail();
-            }
-        });*/
 
         /* End - Handle menu sidebar */
     }
 
-    private void senEmail() {
-        String mEmail = "filipebastias94@gmail.com";
-        String mSubject = "TESTE";
-        String mMessage = "TESTE";
-
-        Mail javaMailAPI = new Mail(this, mEmail, mSubject, mMessage);
-        System.out.println("TESTE");
-        javaMailAPI.execute();
-    }
+//    private void senEmail() {
+//        String mEmail = "filipebastias94@gmail.com";
+//        String mSubject = "TESTE";
+//        String mMessage = "TESTE";
+//
+//        Mail javaMailAPI = new Mail(this, mEmail, mSubject, mMessage);
+//        System.out.println("TESTE");
+//        javaMailAPI.execute();
+//    }
 
     /* public void goToScreen(View view) {
         Intent intent = new Intent(this, Menu.class);
