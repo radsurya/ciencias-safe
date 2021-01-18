@@ -44,11 +44,10 @@ public class HomepageFragment extends Fragment {
     private Context context = null;
     private MapView map = null;
     private MyLocationNewOverlay mLocationOverlay;
-    private CompassOverlay mCompassOverlay;
+    // private CompassOverlay mCompassOverlay;
     private LocationManager lm;
     private GeoPoint startPoint;
     private View v = null;
-    Button mainBluetoothBtn;
 
     public HomepageFragment() {
         // Required empty public constructor
@@ -69,30 +68,14 @@ public class HomepageFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        System.out.println("-------------- TESTE 1");
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        System.out.println("-------------- TESTE 2");
 
         v = (View) inflater.inflate(R.layout.fragment_homepage, container, false);
         context = getActivity();
-
-        mainBluetoothBtn = (Button) v.findViewById(R.id.mainBluetoothBtn);
-        System.out.println("----------------BLUETOOTH 1");
-        if (mainBluetoothBtn != null) {
-            System.out.println("----------------BLUETOOTH 2");
-            mainBluetoothBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    System.out.println("----------------BLUETOOTH 3");
-                    Intent i = new Intent(context, BluetoothActivity.class);
-                    startActivity(i);
-                }
-            });
-        }
 
         Configuration.getInstance().load(context, PreferenceManager.getDefaultSharedPreferences(context));
 
