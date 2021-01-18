@@ -17,7 +17,7 @@
     <string name="classroom_empty">Occupation: 🟩⬜⬜⬜</string>
     <string name="classroom_almost_empty">Occupation: 🟨🟨⬜⬜</string>
     <string name="classroom_almost_full">Occupation: 🟧🟧🟧⬜</string>
-    <string name="classroom_full">Occupation: 🟧🟧🟧⬜</string>
+    <string name="classroom_full">Occupation: 🟥🟥🟥🟥</string>
     <string name="classroom_no_info">Occupation: -</string>
     <string name="classroom_error">Occupation: There was an error getting the information.</string>
     <string name="report_occupation">Report Occupation</string>

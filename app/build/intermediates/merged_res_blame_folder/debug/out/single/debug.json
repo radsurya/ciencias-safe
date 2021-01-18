@@ -16,28 +16,28 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bluetooth_on.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-mdpi\\ic_bluetooth_on.png"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_linkedin.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\linkedin.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_linkedin.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\linkedin.png"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bluetooth_on.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-mdpi\\ic_bluetooth_on.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_menu_white.xml.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\menu_white.xml"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\list_item.xml"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_menu_white.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\menu_white.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_about.png.flat",
@@ -46,6 +46,10 @@
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_covid.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_covid.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_report_send_button.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\report_send_button.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ciencias_safe_logo_foreground.png.flat",
@@ -76,12 +80,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_report_problem.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_report_problem.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_about.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_about.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_report_problem.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_report_problem.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_info_message_resource_fragment.png.flat",
@@ -96,24 +100,32 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_covid.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ciencias_safe_logo.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-xxhdpi\\ciencias_safe_logo.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_homepage.xml.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\fragment_homepage.xml"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bluetooth_off.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bluetooth_off.png"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_report_send_button.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\report_send_button.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ciencias_safe_logo.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-xxhdpi\\ciencias_safe_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_report_send_button.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\report_send_button.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_github.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\github.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_settings.xml.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_github.xml.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\github.xml"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bluetooth_off.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bluetooth_off.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
@@ -144,6 +156,10 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\activity_localization_historic.xml"
     },
     {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_report_send_button.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\report_send_button.png"
+    },
+    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_camera_icon.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\camera_icon.png"
     },
@@ -164,6 +180,10 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\camera_icon.png"
     },
     {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_report_send_button.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\report_send_button.xml"
+    },
+    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_about.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_about.png"
     },
@@ -172,20 +192,20 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-anydpi-v26\\ciencias_safe_logo_round.xml"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_info_message_resource_fragment.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\info_message_resource_fragment.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_covid.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_covid.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_fb.jpg.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-mdpi\\fb.jpg"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_info_message_resource_fragment.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\info_message_resource_fragment.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ciencias_safe_logo.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-mdpi\\ciencias_safe_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_fb.jpg.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-mdpi\\fb.jpg"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bluetooth_off.png.flat",
@@ -196,12 +216,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_report_problem.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_report_problem.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_linkedin.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\linkedin.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_report_problem.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_report_problem.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_settings.png.flat",
@@ -232,16 +252,16 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\camera_icon.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_info_message_resource_fragment.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\info_message_resource_fragment.png"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_report.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\fragment_report.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_room.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_room.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_report.xml.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\fragment_report.xml"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_info_message_resource_fragment.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\info_message_resource_fragment.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_report_problem.png.flat",
@@ -266,6 +286,10 @@
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fcul_logo.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable\\fcul_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_report_send_button.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\report_send_button.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_covid.png.flat",
@@ -308,12 +332,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\linkedin.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_camera_icon.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\camera_icon.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ciencias_safe_logo_round.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-xhdpi\\ciencias_safe_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_camera_icon.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\camera_icon.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bluetooth_on.xml.flat",
@@ -364,12 +388,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_covid.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_history.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_history.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_resource.xml.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\activity_report_resource.xml"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_history.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_history.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_white.png.flat",
@@ -448,12 +472,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-hdpi\\ic_bluetooth_on.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_hamburguer_menu.xml.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\hamburguer_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_linkedin.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\linkedin.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_hamburguer_menu.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\hamburguer_menu.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bluetooth_off.png.flat",
@@ -470,6 +494,10 @@
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_camera_icon.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\camera_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_resource_report_history.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\fragment_resource_report_history.xml"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bluetooth.xml.flat",
@@ -528,12 +556,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\github.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_about.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_about.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ciencias_safe_logo_foreground.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciencias_safe_logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_about.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_about.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_room.xml.flat",
@@ -556,12 +584,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\menu_white.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_history.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_history.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ciencias_safe_logo.xml.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-anydpi-v26\\ciencias_safe_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_history.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_history.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ciencias_safe_logo_foreground.png.flat",
@@ -610,6 +638,10 @@
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ciencias_safe_logo.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciencias_safe_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_report_send_button.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\report_send_button.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_report_problem.xml.flat",

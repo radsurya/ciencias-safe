@@ -73,7 +73,7 @@
 37-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:16:29-85
 38
 39    <application
-39-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-58:19
+39-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-54:19
 40        android:name="androidx.multidex.MultiDexApplication"
 41        android:allowBackup="false"
 41-->[mil.nga.geopackage:geopackage-android:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c06ea14b234eacc066bac880cce100a6\jetified-geopackage-android-2.0.1\AndroidManifest.xml:12:9-36
@@ -134,111 +134,101 @@
 70            android:parentActivityName="com.example.cienciassafe.Menu" />
 70-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:45:13-47
 71        <activity android:name="com.example.cienciassafe.MainActivity" >
-71-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:47:9-52:20
+71-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:47:9-48:20
 71-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:47:19-47
-72            <intent-filter>
-72-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:22:13-26:29
-73                <action android:name="android.intent.action.MAIN" />
-73-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:23:17-69
-73-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:23:25-66
-74
-75                <category android:name="android.intent.category.LAUNCHER" />
-75-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:25:17-77
-75-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:25:27-74
-76            </intent-filter>
-77        </activity>
+72        </activity>
+73
+74        <meta-data
+74-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:50:9-53:21
+75            android:name="com.google.android.gms.vision.DEPENDENCIES"
+75-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:51:13-70
+76            android:value="barcode" >
+76-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:52:13-36
+77        </meta-data>
 78
-79        <meta-data
-79-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:54:9-57:21
-80            android:name="com.google.android.gms.vision.DEPENDENCIES"
-80-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:55:13-70
-81            android:value="barcode" >
-81-->C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:56:13-36
-82        </meta-data>
-83
-84        <activity
-84-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:12:9-14:56
-85            android:name="com.estimote.mustard.rx_goodness.rx_activity_result.RxResultActivity"
-85-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:13:13-96
-86            android:theme="@style/Theme.Transparent" />
-86-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:14:13-53
-87        <activity
-87-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:15:9-17:56
-88            android:name="com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequestPermissionActivity"
-88-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:16:13-109
-89            android:theme="@style/Theme.Transparent" />
-89-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:17:13-53
-90
-91        <service
-91-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
-92            android:name="com.google.firebase.components.ComponentDiscoveryService"
-92-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:31:13-84
-93            android:directBootAware="true"
-93-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
-94            android:exported="false" >
-94-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:32:13-37
-95            <meta-data
-95-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
-96                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-96-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
-97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
-98            <meta-data
-98-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
-99                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-99-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
-100                android:value="com.google.firebase.components.ComponentRegistrar" />
-100-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
-101        </service>
-102
-103        <receiver android:name="com.estimote.proximity_sdk.api.TriggerBroadcastReceiver" >
-103-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:15:9-19:20
-103-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:15:19-89
-104            <intent-filter>
-104-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:16:13-18:29
-105                <action android:name="com.estimote.proximity_trigger" />
-105-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:17:17-73
-105-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:17:25-70
-106            </intent-filter>
-107        </receiver>
+79        <activity
+79-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:12:9-14:56
+80            android:name="com.estimote.mustard.rx_goodness.rx_activity_result.RxResultActivity"
+80-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:13:13-96
+81            android:theme="@style/Theme.Transparent" />
+81-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:14:13-53
+82        <activity
+82-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:15:9-17:56
+83            android:name="com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequestPermissionActivity"
+83-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:16:13-109
+84            android:theme="@style/Theme.Transparent" />
+84-->[com.estimote:mustard:0.2.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\17d87846a852bf2462ff561ddedd2ddb\jetified-mustard-0.2.1\AndroidManifest.xml:17:13-53
+85
+86        <service
+86-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:31:13-84
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:32:13-37
+90            <meta-data
+90-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+91                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+91-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\80b96b8459e39584abd3365a7bf0267b\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+94                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+94-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-database:19.5.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\fc103de11ba45e8031c7a2ff05cc918b\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+96        </service>
+97
+98        <receiver android:name="com.estimote.proximity_sdk.api.TriggerBroadcastReceiver" >
+98-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:15:9-19:20
+98-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:15:19-89
+99            <intent-filter>
+99-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:16:13-18:29
+100                <action android:name="com.estimote.proximity_trigger" />
+100-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:17:17-73
+100-->[com.estimote:proximity-sdk:1.0.3] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4cc31a66d7e4141c9475641eeac7e8db\jetified-proximity-sdk-1.0.3\AndroidManifest.xml:17:25-70
+101            </intent-filter>
+102        </receiver>
+103
+104        <service
+104-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:19:9-22:40
+105            android:name="com.estimote.scanning_plugin.packet_provider.service.PacketProviderWrapperService"
+105-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:20:13-109
+106            android:enabled="true"
+106-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:21:13-35
+107            android:exported="false" />
+107-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:22:13-37
 108
-109        <service
-109-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:19:9-22:40
-110            android:name="com.estimote.scanning_plugin.packet_provider.service.PacketProviderWrapperService"
-110-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:20:13-109
-111            android:enabled="true"
-111-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:21:13-35
-112            android:exported="false" />
-112-->[com.estimote:scanning-plugin:0.23.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\51ce5dfff6771b17e2b696c68e04c3ed\jetified-scanning-plugin-0.23.0\AndroidManifest.xml:22:13-37
-113
-114        <provider
-114-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
-115            android:name="com.google.firebase.provider.FirebaseInitProvider"
-115-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
-116            android:authorities="com.example.cienciassafe.firebaseinitprovider"
-116-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
-117            android:directBootAware="true"
-117-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+109        <provider
+109-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+110            android:name="com.google.firebase.provider.FirebaseInitProvider"
+110-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+111            android:authorities="com.example.cienciassafe.firebaseinitprovider"
+111-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+113            android:exported="false"
+113-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+114            android:initOrder="100" />
+114-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+115
+116        <activity
+116-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 118            android:exported="false"
-118-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
-119            android:initOrder="100" />
-119-->[com.google.firebase:firebase-common:19.4.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+118-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 120
-121        <activity
-121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-122            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-122-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-123            android:exported="false"
-123-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-124-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\4d0717210b0687cad87212665e90c4c5\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+121        <meta-data
+121-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+122            android:name="com.google.android.gms.version"
+122-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+123            android:value="@integer/google_play_services_version" />
+123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+124    </application>
 125
-126        <meta-data
-126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-127            android:name="com.google.android.gms.version"
-127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-128            android:value="@integer/google_play_services_version" />
-128-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\c03ff831f337462821d0a5c03495569e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-129    </application>
-130
-131</manifest>
+126</manifest>

@@ -33,11 +33,11 @@
     <string name="classroom_empty">Ocupação: 🟩⬜⬜⬜</string>
     <string name="classroom_almost_empty">Ocupação: 🟨🟨⬜⬜</string>
     <string name="classroom_almost_full">Ocupação: 🟧🟧🟧⬜</string>
-    <string name="classroom_full">Ocupação: 🟧🟧🟧⬜</string>
+    <string name="classroom_full">Ocupação: 🟥🟥🟥🟥</string>
     <string name="empty">🟩⬜⬜⬜ Vazia</string>
     <string name="almost_empty">🟨🟨⬜⬜ Quase Vazia</string>
     <string name="almost_full">🟧🟧🟧⬜ Quase Cheia</string>
-    <string name="full">🟧🟧🟧⬜ Cheia</string>
+    <string name="full">🟥🟥🟥🟥 Cheia</string>
     <string name="classroom_no_info">Ocupação: -</string>
     <string name="classroom_error">Ocupação: Houve um erro a ir buscar a informação.</string>
     <string name="report_occupation">Reportar Ocupação</string>

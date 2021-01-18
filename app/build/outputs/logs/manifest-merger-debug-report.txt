@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\75481e4f325e3678b01ca7833508255c\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e5ff35c5be8c99afad1d3f4e0d46d627\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:17:1-24:12
@@ -84,20 +84,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dogaf\.
 MERGED from [com.estimote:ketchup:0.5.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\9123e45971a4bdd110451ab0f829cdd8\jetified-ketchup-0.5.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\1cd46a1478cc9fe35d202a95d58daec4\jetified-rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
 MERGED from [com.wojtek.wawerek:skald-logcat-plugin:0.1.0] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\365b5283abbe5d72d4332852e62921fc\jetified-skald-logcat-plugin-0.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:2:11-69
@@ -156,7 +156,7 @@ ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:12:22-63
 application
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-58:19
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:14:5-54:19
 MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\5dd4737627e5c37a1694669e5d245b89\material-1.3.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\dogaf\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -258,15 +258,15 @@ ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:44:13-39
 activity#com.example.cienciassafe.MainActivity
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:47:9-52:20
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:47:9-48:20
 	android:name
 		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:47:19-47
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:54:9-57:21
+ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:50:9-53:21
 	android:value
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:55:13-70
+		ADDED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml:51:13-70
 uses-sdk
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dogaf\AndroidStudioProjects\ciencias-safe\app\src\main\AndroidManifest.xml

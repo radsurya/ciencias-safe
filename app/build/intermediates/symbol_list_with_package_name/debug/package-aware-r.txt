@@ -1828,6 +1828,7 @@ drawable osm_ic_follow_me_on
 drawable osm_ic_ic_map_ortho
 drawable person
 drawable previous
+drawable report_send_button
 drawable rg
 drawable round_navigation_white_48
 drawable sharp_add_black_36
@@ -1943,7 +1944,6 @@ id button4
 id button5
 id button6
 id button7
-id button8
 id buttonPanel
 id button_report
 id cache_measures
@@ -2041,6 +2041,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id fragment_resource_report_history
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2268,6 +2269,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id submit_resource_info
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2281,6 +2283,7 @@ id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
+id teste
 id tests
 id text
 id text2
@@ -2434,6 +2437,7 @@ layout fragment_covid
 layout fragment_history
 layout fragment_homepage
 layout fragment_report
+layout fragment_resource_report_history
 layout fragment_settings
 layout layout_navigation
 layout list_item

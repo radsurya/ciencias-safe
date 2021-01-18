@@ -5,17 +5,11 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.location.Location;
 import android.location.LocationManager;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
-import android.widget.CompoundButton;
-
-import androidx.annotation.AnyThread;
-import androidx.collection.ArrayMap;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -30,11 +24,6 @@ import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
 
 import java.util.ArrayList;
 
-import ca.hss.heatmaplib.HeatMap;
-
-
-
-
 public class MapActivity extends Activity {
     private final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
     private MapView map = null;
@@ -42,9 +31,6 @@ public class MapActivity extends Activity {
     private CompassOverlay mCompassOverlay;
     private LocationManager lm;
     private GeoPoint startPoint;
-
-    private HeatMap heatmap;
-    private boolean testAsync = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

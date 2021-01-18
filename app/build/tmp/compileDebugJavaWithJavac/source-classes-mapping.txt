@@ -9,6 +9,7 @@ com/example/cienciassafe/Classrooms.java
  com.example.cienciassafe.Classrooms
 com/example/cienciassafe/SettingsFragment.java
  com.example.cienciassafe.SettingsFragment
+ com.example.cienciassafe.SettingsFragment$1
 com/example/cienciassafe/CovidReportRecyclerViewAdapter.java
  com.example.cienciassafe.CovidReportRecyclerViewAdapter
 com/example/cienciassafe/ReportResource.java
@@ -22,6 +23,9 @@ com/example/cienciassafe/AboutFragment.java
  com.example.cienciassafe.AboutFragment$5
  com.example.cienciassafe.AboutFragment$6
  com.example.cienciassafe.AboutFragment$7
+com/example/cienciassafe/ResourceReportHistory.java
+ com.example.cienciassafe.ResourceReportHistory
+ com.example.cienciassafe.ResourceReportHistory$1
 com/example/cienciassafe/BuildConfig.java
  com.example.cienciassafe.BuildConfig
 com/example/cienciassafe/ClassroomsFragment.java
@@ -62,18 +66,19 @@ com/example/cienciassafe/Utils.java
  com.example.cienciassafe.Utils
 com/example/cienciassafe/HomepageFragment.java
  com.example.cienciassafe.HomepageFragment
- com.example.cienciassafe.HomepageFragment$1
-com/example/cienciassafe/MapActivity.java
- com.example.cienciassafe.MapActivity
+com/example/cienciassafe/Resource.java
+ com.example.cienciassafe.Resource
 com/example/cienciassafe/ReportFragment.java
  com.example.cienciassafe.ReportFragment
  com.example.cienciassafe.ReportFragment$1
  com.example.cienciassafe.ReportFragment$2
- com.example.cienciassafe.ReportFragment$3
- com.example.cienciassafe.ReportFragment$3$1
+ com.example.cienciassafe.ReportFragment$2$1
+ com.example.cienciassafe.ReportFragment$2$2
 com/example/cienciassafe/BluetoothActivity.java
  com.example.cienciassafe.BluetoothActivity
  com.example.cienciassafe.BluetoothActivity$1
  com.example.cienciassafe.BluetoothActivity$2
  com.example.cienciassafe.BluetoothActivity$3
  com.example.cienciassafe.BluetoothActivity$4
+com/example/cienciassafe/MapActivity.java
+ com.example.cienciassafe.MapActivity
