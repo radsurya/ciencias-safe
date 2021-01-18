@@ -11,6 +11,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +31,11 @@ import com.estimote.proximity_sdk.api.ProximityObserverBuilder;
 import com.estimote.proximity_sdk.api.ProximityZone;
 import com.estimote.proximity_sdk.api.ProximityZoneBuilder;
 import com.estimote.proximity_sdk.api.ProximityZoneContext;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
 import java.util.Set;
@@ -100,11 +107,11 @@ public class MainActivity extends AppCompatActivity {
                         TextView viewBeacon = findViewById(R.id.beaconTitle);
                         switch (deskOwners.get(0)) {
                             case "lemon":
-                                viewBeacon.setText("Sala 1.1.36 está cheia!");
+                                showRoomOccupation(viewBeacon);
                             case "beetroot":
-                                viewBeacon.setText("Sala 1.2.21 está vazia!");
+                                showRoomOccupation(viewBeacon);
                             case "candy":
-                                viewBeacon.setText("Sala 1.2.22 está quase cheia!");
+                                showRoomOccupation(viewBeacon);
                         }
 
 
@@ -195,4 +202,51 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
+
+    public void showRoomOccupation(final TextView view) {
+        if (view != null) {
+            DatabaseReference reff;
+            reff = FirebaseDatabase.getInstance().getReference();
+
+            reff.child("rooms").child("c1").addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    if (dataSnapshot.exists()) {
+                        int count = 0;
+                        for (DataSnapshot d : dataSnapshot.getChildren()) {
+                            if (count == 0) {
+                                String room = d.getKey().replace("-", ".");
+                                String occupation = d.child("occupation").getValue(String.class);
+                                if (room != null && occupation != null) {
+                                    if (occupation.equals("no_info")) {
+                                        view.setText(getString(R.string.room_no_info, room));
+                                    } else if (occupation.equals("empty")) {
+                                        view.setText(getString(R.string.room_empty, room));
+                                    } else if (occupation.equals("almost_empty")) {
+                                        view.setText(getString(R.string.room_almost_empty, room));
+                                    } else if (occupation.equals("almost_full")) {
+                                        view.setText(getString(R.string.room_almost_full, room));
+                                    } else if (occupation.equals("full")) {
+                                        view.setText(getString(R.string.room_full, room));
+                                    }
+                                }
+                                count = count + 1;
+                            }
+
+
+                        }
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    // Failed to read value
+                    System.out.println("Failed to read value. " + error.toException());
+                }
+            });
+        }
+
+    }
+
 }

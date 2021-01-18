@@ -63,4 +63,9 @@
     <string name="profile">Perfil</string>
     <string name="project">Projeto</string>
     <string name="app_icon">Ícone da Aplicação</string>
+    <string name="room_empty">A sala %1$s está vazia!</string>
+    <string name="room_almost_empty">A sala %1$s está quase vazia!</string>
+    <string name="room_almost_full">A sala %1$s está quase cheia!</string>
+    <string name="room_full">A sala %1$s está cheia!</string>
+    <string name="room_no_info">A sala %1$s não tem informação recente.</string>
 </resources>

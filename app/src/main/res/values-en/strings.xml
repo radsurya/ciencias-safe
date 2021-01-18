@@ -40,4 +40,9 @@
     <string name="profile">Profile</string>
     <string name="project">Project</string>
     <string name="app_icon">App Icon</string>
+    <string name="room_empty">Room %1$s is empty!</string>
+    <string name="room_almost_empty">Room %1$s is almost empty!</string>
+    <string name="room_almost_full">Room %1$s is almost full!</string>
+    <string name="room_full">Room %1$s is full!</string>
+    <string name="room_no_info">Room %1$s has no recent info.</string>
 </resources>
