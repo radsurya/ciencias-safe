@@ -26,97 +26,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <!--
-            <TextView
-                android:id="@+id/group"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/group_12"
-                android:textSize="30sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/student_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/diogo_frazao"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="@+id/image_student_1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/image_student_1"
-                app:layout_constraintTop_toTopOf="@+id/image_student_1" />
-
-            <ImageView
-                android:id="@+id/image_student_1"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:contentDescription="@string/diogo_frazao_avatar"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/group"
-                app:srcCompat="@drawable/df"
-                android:layout_marginLeft="16dp" />
-
-            <TextView
-                android:id="@+id/student_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/filipe_bastias"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="@+id/image_student_2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/image_student_2"
-                app:layout_constraintTop_toTopOf="@+id/image_student_2" />
-
-            <ImageView
-                android:id="@+id/image_student_2"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:contentDescription="@string/filipe_bastias_avatar"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_student_1"
-                app:srcCompat="@drawable/fb"
-                android:layout_marginLeft="16dp" />
-
-            <TextView
-                android:id="@+id/student_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/radica_giva"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="@+id/image_student_3"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/image_student_3"
-                app:layout_constraintTop_toTopOf="@+id/image_student_3" />
-
-            <ImageView
-                android:id="@+id/image_student_3"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:contentDescription="@string/radica_giva"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_student_2"
-                app:srcCompat="@drawable/rg"
-                android:layout_marginLeft="16dp" />
-                -->
-
             <LinearLayout
+                android:id="@+id/linearLayout3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -138,6 +53,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         ​
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -196,13 +112,24 @@
                                 android:orientation="horizontal">
 
                                 <com.google.android.material.button.MaterialButton
-                                    android:id="@+id/button_report"
                                     style="?attr/materialButtonOutlinedStyle"
+                                    android:id="@+id/dfGitBttn"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="8dp"
                                     android:layout_marginRight="8dp"
-                                    android:text="@string/report_occupation" />
+                                    android:text="@string/profile"
+                                    app:icon="@drawable/github" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    style="?attr/materialButtonOutlinedStyle"
+                                    android:id="@+id/dfLiBttn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:text="@string/profile"
+                                    app:icon="@drawable/linkedin" />
 
                             </LinearLayout>
                             ​
@@ -227,6 +154,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         ​
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -286,11 +214,23 @@
 
                                 <com.google.android.material.button.MaterialButton
                                     style="?attr/materialButtonOutlinedStyle"
+                                    android:id="@+id/fbGitBttn"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="8dp"
                                     android:layout_marginRight="8dp"
-                                    android:text="@string/report_occupation" />
+                                    android:text="@string/profile"
+                                    app:icon="@drawable/github" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    style="?attr/materialButtonOutlinedStyle"
+                                    android:id="@+id/fbLiBttn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:text="@string/profile"
+                                    app:icon="@drawable/linkedin" />
 
                             </LinearLayout>
                             ​
@@ -315,6 +255,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         ​
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -374,11 +315,23 @@
 
                                 <com.google.android.material.button.MaterialButton
                                     style="?attr/materialButtonOutlinedStyle"
+                                    android:id="@+id/rgGitBttn"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="8dp"
                                     android:layout_marginRight="8dp"
-                                    android:text="@string/report_occupation" />
+                                    android:text="@string/profile"
+                                    app:icon="@drawable/github" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    style="?attr/materialButtonOutlinedStyle"
+                                    android:id="@+id/rgLiBttn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:text="@string/profile"
+                                    app:icon="@drawable/linkedin" />
 
                             </LinearLayout>
                             ​
@@ -387,6 +340,17 @@
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.button.MaterialButton
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:id="@+id/projectBttn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/project"
+                    app:icon="@drawable/github"
+                    app:layout_constraintBottom_toBottomOf="@+id/linearLayout3" />
 
             </LinearLayout>
 

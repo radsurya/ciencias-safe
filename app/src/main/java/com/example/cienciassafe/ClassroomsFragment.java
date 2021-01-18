@@ -82,7 +82,7 @@ public class ClassroomsFragment extends Fragment {
                                     ArrayList<String> classrooms = new ArrayList<>();
 
                                     for (DataSnapshot d : dataSnapshot.getChildren()) {
-                                        classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class));
+                                        classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class) + ";" + d.child("time_report").getValue(String.class));
                                     }
 
                                     RecyclerView recyclerView = v.findViewById(R.id.recycler_view);
@@ -102,6 +102,37 @@ public class ClassroomsFragment extends Fragment {
                     }
 
                 });
+
+                dropdown.setText(dropdown.getAdapter().getItem(0).toString(), false);
+
+                DatabaseReference reff;
+                reff = FirebaseDatabase.getInstance().getReference();
+
+                reff.child("rooms").child(buildings[0].toLowerCase()).addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if (dataSnapshot.exists()) {
+
+                            ArrayList<String> classrooms = new ArrayList<>();
+
+                            for (DataSnapshot d : dataSnapshot.getChildren()) {
+                                classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class) + ";" + d.child("time_report").getValue(String.class));
+                            }
+
+                            RecyclerView recyclerView = v.findViewById(R.id.recycler_view);
+                            recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 1, GridLayoutManager.VERTICAL, false));
+                            ClassroomRecyclerViewAdapter recyclerViewAdapter = new ClassroomRecyclerViewAdapter(classrooms);
+                            recyclerView.setAdapter(recyclerViewAdapter);
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError error) {
+                        // Failed to read value
+                        System.out.println("Failed to read value. " + error.toException());
+                    }
+                });
+
             }
         }
 

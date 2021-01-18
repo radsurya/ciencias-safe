@@ -1044,6 +1044,7 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
+color ciencias_safe_logo_background
 color colorAccent
 color colorGreen
 color colorPrimary
@@ -1105,6 +1106,7 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color fcul_logo_background
 color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
@@ -1726,6 +1728,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable camera_icon
 drawable center
+drawable ciencias_safe_logo
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1754,6 +1757,7 @@ drawable design_snackbar_background
 drawable df
 drawable fb
 drawable fcul_logo
+drawable github
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable hamburguer_menu
@@ -1765,8 +1769,6 @@ drawable ic_covid
 drawable ic_history
 drawable ic_home
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_menu_compass
 drawable ic_menu_mapmode
 drawable ic_menu_mylocation
@@ -1776,8 +1778,11 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_report
+drawable ic_report_problem
 drawable ic_room
 drawable ic_settings
+drawable info_message_resource_fragment
+drawable linkedin
 drawable marker_default
 drawable marker_default_focused_base
 drawable material_cursor_drawable
@@ -1919,6 +1924,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id beaconTitle
 id beginOnFirstDraw
 id beginning
 id blocking
@@ -1936,6 +1942,8 @@ id button3
 id button4
 id button5
 id button6
+id button7
+id button8
 id buttonPanel
 id button_report
 id cache_measures
@@ -1989,6 +1997,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dfGitBttn
+id dfLiBttn
 id dialog_button
 id dimensions
 id direct
@@ -2019,6 +2029,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fbGitBttn
+id fbLiBttn
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2055,6 +2067,7 @@ id ignore
 id ignoreRequest
 id image
 id imageMenu
+id imageView
 id info
 id invisible
 id inward
@@ -2076,6 +2089,7 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id main
@@ -2178,6 +2192,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id projectBttn
 id radio
 id ratio
 id rectangles
@@ -2185,6 +2200,8 @@ id recycler_view
 id repeat
 id reportFragment
 id reverseSawtooth
+id rgGitBttn
+id rgLiBttn
 id right
 id rightToLeft
 id right_icon
@@ -2278,6 +2295,7 @@ id textView
 id textView1
 id textView2
 id textView3
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2390,6 +2408,7 @@ layout activity_localization_historic
 layout activity_main
 layout activity_menu
 layout activity_report_resource
+layout activity_splash
 layout bonuspack_bubble
 layout classroom_card
 layout covid_report_card
@@ -2494,12 +2513,10 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu navigation_menu
-mipmap fcul_logo
-mipmap fcul_logo_background
-mipmap fcul_logo_foreground
-mipmap fcul_logo_round
+mipmap ciencias_safe_logo
+mipmap ciencias_safe_logo_foreground
+mipmap ciencias_safe_logo_round
 mipmap ic_launcher
-mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation main
 plurals mtrl_badge_content_description
@@ -2539,6 +2556,7 @@ string about
 string about_message
 string almost_empty
 string almost_full
+string app_icon
 string app_name
 string appbar_scrolling_view_behavior
 string ascending_date
@@ -2590,6 +2608,9 @@ string diogo_frazao_avatar
 string diogo_frazao_number
 string empty
 string error_icon_content_description
+string error_no_bluetooth_enabled
+string error_no_bluetooth_le
+string error_no_location_permission
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -2629,6 +2650,8 @@ string hills
 string homepage
 string icon_content_description
 string item_view_role_description
+string last_reported
+string last_reported_no_info
 string library_roundedimageview_author
 string library_roundedimageview_authorWebsite
 string library_roundedimageview_isOpenSource
@@ -2705,6 +2728,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string profile
+string project
 string project_id
 string public_transport
 string radica_giva
@@ -2713,6 +2738,12 @@ string radica_giva_number
 string report
 string report_occupation
 string report_resources
+string requesting_location_access
+string requesting_location_access_cancel
+string requesting_location_access_ok
+string requesting_location_access_rationale
+string requesting_location_permission
+string requesting_location_permission_rationale
 string roads_nl
 string room
 string room_list
@@ -2746,6 +2777,7 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -3208,6 +3240,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

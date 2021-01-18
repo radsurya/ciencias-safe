@@ -14,18 +14,18 @@
     <string name="location_history">Histórico de Localização</string>
     <string name="about">Sobre</string>
     <string name="covid_19_ciencias">COVID-19 em Ciências</string>
-    <string name="classroom_empty">Ocupação: Vazia</string>
-    <string name="classroom_almost_empty">Ocupação: Quase Vazia</string>
-    <string name="classroom_almost_full">Ocupação: Quase Cheia</string>
-    <string name="classroom_full">Ocupação: Cheia</string>
-    <string name="classroom_no_info">"Ocupação: Não existe informação recente para esta sala. "</string>
+    <string name="classroom_empty">Ocupação: 🟩⬜⬜⬜</string>
+    <string name="classroom_almost_empty">Ocupação: 🟨🟨⬜⬜</string>
+    <string name="classroom_almost_full">Ocupação: 🟧🟧🟧⬜</string>
+    <string name="classroom_full">Ocupação: 🟧🟧🟧⬜</string>
+    <string name="classroom_no_info">Ocupação: -</string>
     <string name="classroom_error">Ocupação: Houve um erro a ir buscar a informação.</string>
     <string name="report_occupation">Reportar Ocupação</string>
     <string name="occupation">Ocupação</string>
-    <string name="empty">Vazia</string>
-    <string name="almost_empty">Quase Vazia</string>
-    <string name="almost_full">Quase Cheia</string>
-    <string name="full">Cheia</string>
+    <string name="empty">🟩⬜⬜⬜ Vazia</string>
+    <string name="almost_empty">🟨🟨⬜⬜ Quase Vazia</string>
+    <string name="almost_full">🟧🟧🟧⬜ Quase Cheia</string>
+    <string name="full">🟧🟧🟧⬜ Cheia</string>
     <string name="report">Reportar</string>
     <string name="cancel">Cancelar</string>
     <string name="order_by">Ordenar por:</string>
@@ -35,4 +35,9 @@
     <string name="high_risk">N° de novos contactos de alto risco: %1$s</string>
     <string name="confirmed_cases">N° de novos casos confirmados: %1$s</string>
     <string name="tests">N° de testes: %1$s</string>
+    <string name="last_reported">Última vez reportado: %1$s</string>
+    <string name="last_reported_no_info">"Última vez reportado: Não existe informação recente para esta sala. "</string>
+    <string name="profile">Perfil</string>
+    <string name="project">Projeto</string>
+    <string name="app_icon">Ícone da Aplicação</string>
 </resources>

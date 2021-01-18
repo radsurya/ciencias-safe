@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="18"
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -33,16 +33,28 @@
         android:required="false" />
     <uses-feature
         android:name="android.hardware.wifi"
-        android:required="false" />
+        android:required="false" /> <!-- Needed for Bluetooth scanning on Android M and above. -->
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
+        android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:fullBackupOnly="false"
+        android:icon="@mipmap/ciencias_safe_logo"
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cienciassafe.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.cienciassafe.BluetoothActivity" />
         <activity
             android:name="com.example.cienciassafe.LocalizationHistoric"
@@ -66,7 +78,15 @@
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
-            android:value="barcode" />
+            android:value="barcode" >
+        </meta-data>
+
+        <activity
+            android:name="com.estimote.mustard.rx_goodness.rx_activity_result.RxResultActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequestPermissionActivity"
+            android:theme="@style/Theme.Transparent" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -79,6 +99,17 @@
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
+
+        <receiver android:name="com.estimote.proximity_sdk.api.TriggerBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.estimote.proximity_trigger" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.estimote.scanning_plugin.packet_provider.service.PacketProviderWrapperService"
+            android:enabled="true"
+            android:exported="false" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"

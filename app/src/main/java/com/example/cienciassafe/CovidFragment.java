@@ -117,6 +117,7 @@ public class CovidFragment extends Fragment {
                     }
 
                 });
+
                 dropdown.setText(dropdown.getAdapter().getItem(1).toString(), false);
 
                 DatabaseReference reff;

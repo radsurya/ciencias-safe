@@ -14,18 +14,18 @@
     <string name="location_history">Location History</string>
     <string name="about">About</string>
     <string name="covid_19_ciencias">COVID-19 in Ciências</string>
-    <string name="classroom_empty">Occupation: Empty</string>
-    <string name="classroom_almost_empty">Occupation: Almost Empty</string>
-    <string name="classroom_almost_full">Occupation: Almost Full</string>
-    <string name="classroom_full">Occupation: Full</string>
-    <string name="classroom_no_info">Occupation: There isn\'t recent information for this room.</string>
+    <string name="classroom_empty">Occupation: 🟩⬜⬜⬜</string>
+    <string name="classroom_almost_empty">Occupation: 🟨🟨⬜⬜</string>
+    <string name="classroom_almost_full">Occupation: 🟧🟧🟧⬜</string>
+    <string name="classroom_full">Occupation: 🟧🟧🟧⬜</string>
+    <string name="classroom_no_info">Occupation: -</string>
     <string name="classroom_error">Occupation: There was an error getting the information.</string>
     <string name="report_occupation">Report Occupation</string>
     <string name="occupation">Occupation</string>
-    <string name="full">Full</string>
-    <string name="almost_full">Almost Full</string>
-    <string name="almost_empty">Almost Empty</string>
-    <string name="empty">Empty</string>
+    <string name="full">🟥🟥🟥🟥 Full</string>
+    <string name="almost_full">🟧🟧🟧⬜ Almost Full</string>
+    <string name="almost_empty">"🟨🟨⬜⬜ Almost Empty "</string>
+    <string name="empty">🟩⬜⬜⬜ Empty</string>
     <string name="report">Report</string>
     <string name="cancel">Cancel</string>
     <string name="order_by">Order by:</string>
@@ -35,4 +35,9 @@
     <string name="tests">No. of tests: %1$s</string>
     <string name="high_risk">No. of new high-risk contacts: %1$s</string>
     <string name="confirmed_cases">No. of new confirmed cases: %1$s</string>
+    <string name="last_reported">Last reported: %1$s</string>
+    <string name="last_reported_no_info">Last reported: There isn\'t recent information for this room.</string>
+    <string name="profile">Profile</string>
+    <string name="project">Project</string>
+    <string name="app_icon">App Icon</string>
 </resources>

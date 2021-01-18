@@ -14,9 +14,13 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -54,6 +58,11 @@ public class ClassroomRecyclerViewAdapter extends RecyclerView.Adapter<Classroom
                 holder.OccupancyText.setText(R.string.classroom_full);
             } else {
                 holder.OccupancyText.setText(R.string.classroom_error);
+            }
+            if (classroom.split(";")[2].equals("no_info")) {
+                holder.LastReportedText.setText(R.string.last_reported_no_info);
+            } else {
+                holder.LastReportedText.setText(holder.itemView.getContext().getString(R.string.last_reported, classroom.split(";")[2]));
             }
             holder.Button.setOnClickListener(new View.OnClickListener(){
                 @Override
@@ -96,6 +105,10 @@ public class ClassroomRecyclerViewAdapter extends RecyclerView.Adapter<Classroom
                                     } else if (selectedPosition == 3) {
                                         map.put("occupation", "full");
                                     }
+
+                                    //SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault());
+                                    String currentDateandTime = new SimpleDateFormat("HH:mm dd/MM/yyyy", Locale.getDefault()).format(new Date());
+                                    map.put("time_report", currentDateandTime);
                                     reff.child("rooms").child("c" + building).child(room).updateChildren(map);
                                 }
                             })

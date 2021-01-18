@@ -9,12 +9,14 @@ import android.widget.TextView;
 public class ClassroomCardViewHolder extends RecyclerView.ViewHolder {
     public TextView Room;
     public TextView OccupancyText;
+    public TextView LastReportedText;
     public Button Button;
 
     public ClassroomCardViewHolder(@NonNull View itemView) {
         super(itemView);
         Room = itemView.findViewById(R.id.room);
         OccupancyText = itemView.findViewById(R.id.occupancy_text);
+        LastReportedText = itemView.findViewById(R.id.last_reported_text);
         Button = itemView.findViewById(R.id.button_report);
     }
 }
