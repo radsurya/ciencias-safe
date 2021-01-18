@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:gravity="center"
-            android:text="Desloque-se perto de uma sala..."
+            android:text="@string/go_to_room"
             android:textAlignment="center"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/map" />
