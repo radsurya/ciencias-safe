@@ -5,31 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomepageFragment">
-<!--
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HOMEPAGE FRAGMENT"
-        android:layout_gravity="center"
-        android:textSize="20sp"/>
--->
-
-    <TextView
-        android:id="@+id/beaconTitle"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginTop="8dp"
-        android:text="Desloque-se perto de uma sala..."
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="0dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        tools:ignore="MissingConstraints" />
 
     <org.osmdroid.views.MapView
         android:id="@+id/map"
-        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/layout_bg"
+        android:topLeftRadius="16dp"
+        android:topRightRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map">
+
+        <TextView
+            android:id="@+id/beaconTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Desloque-se perto de uma sala..."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/map" />
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
