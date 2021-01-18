@@ -3,13 +3,13 @@ package com.example.cienciassafe;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Vibrator;
 import android.util.SparseArray;
@@ -25,23 +25,28 @@ import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link ReportFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ReportFragment extends Fragment {
+public class ReportFragment extends Fragment implements View.OnClickListener {
     private View v = null;
     SurfaceView surfaceView;
     CameraSource cameraSource;
     TextView textView;
     BarcodeDetector barcodeDetector;
-
-    private String email, subject, message;
-    private Button button;
+    private Button sendEmailButton;
 
     public ReportFragment() {
         // Required empty public constructor
@@ -73,26 +78,13 @@ public class ReportFragment extends Fragment {
         // Asks user for camera permission
         if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA)
                 == PackageManager.PERMISSION_DENIED)
-            ActivityCompat.requestPermissions(getActivity(), new String[] {Manifest.permission.CAMERA}, getTargetRequestCode());
+            ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.CAMERA}, getTargetRequestCode());
 
         // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_report, container, false);
 
         if (v != null) {
-            /* SEND EMAIL */
-            button = (Button)v.findViewById(R.id.button8);
-            email = "EMAIL FCUL DIREÇÃO";
-            subject = "ASSUNTO";
-            message = "TESTE";
-            //button = findViewById(R.id.button8);
-
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    senEmail();
-                }
-            });
-
+            sendEmailButton = (Button) v.findViewById(R.id.submit_resource_info);
             surfaceView = (SurfaceView) v.findViewById(R.id.camerapreview);
             textView = (TextView) v.findViewById(R.id.textView);
 
@@ -146,21 +138,64 @@ public class ReportFragment extends Fragment {
                                 textView.setText(qrCodes.valueAt(0).displayValue);
                             }
                         });
+
+                        // Send Email with QR code info
+                        sendEmailButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                senEmail(qrCodes);
+                            }
+                        });
                     }
                 }
             });
+
         }
+
+        Button button = (Button) v.findViewById(R.id.button7);
+        button.setOnClickListener(this);
 
         return v;
     }
 
-    private void senEmail() {
-        String mEmail = email;
-        String mSubject = subject;
-        String mMessage = message;
+    @Override
+    public void onClick(View view) {
+        Fragment fragment = null;
+        switch (view.getId()) {
+            case R.id.button7:
+                fragment = new ResourceReportHistory();
+                replaceFragment(fragment);
+                break;
+        }
+    }
+
+    public void replaceFragment(Fragment someFragment) {
+        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_resource_report_history, someFragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+    }
+
+    // Send email with QR code info
+    private void senEmail(SparseArray<Barcode> qrCodes) {
+        String mEmail = "filipebastias94@gmail.com";
+        String mSubject = "Falta de Recurso - Info";
+        String mMessage = qrCodes.valueAt(0).displayValue;
 
         Mail javaMailAPI = new Mail(getContext(), mEmail, mSubject, mMessage);
-        System.out.println("EMAIL TESTE");
         javaMailAPI.execute();
+        registerResourceReport(mMessage);
     }
+
+    private void registerResourceReport(String mMessage) {
+        DatabaseReference reff;
+        reff = FirebaseDatabase.getInstance().getReference();
+        Map<String, Object> map = new HashMap<>();
+        String uniqueID = UUID.randomUUID().toString();
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        Date date = new Date();
+        map.put("resource", new Resource(mMessage, formatter.format(date)));
+        reff.child("resourceReport").child("Report_ID_" + uniqueID).setValue(map);
+    }
+
 }
