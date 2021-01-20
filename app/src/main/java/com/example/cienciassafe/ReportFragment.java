@@ -20,6 +20,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
@@ -130,11 +131,20 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
                     final SparseArray<Barcode> qrCodes = detections.getDetectedItems();
 
                     if (qrCodes.size() != 0) {
+                        getActivity().runOnUiThread(new Runnable() {
+
+                            @Override
+                            public void run() {
+                                sendEmailButton.setVisibility(sendEmailButton.VISIBLE);
+                            }
+                        });
+                        sendEmailButton.setEnabled(true);
+
                         textView.post(new Runnable() {
                             @Override
                             public void run() {
-                                Vibrator vibrator = (Vibrator) getActivity().getSystemService(Context.VIBRATOR_SERVICE);
-                                vibrator.vibrate(1000);
+                                // Vibrator vibrator = (Vibrator) getActivity().getSystemService(Context.VIBRATOR_SERVICE);
+                                // vibrator.vibrate(1000);
                                 textView.setText(qrCodes.valueAt(0).displayValue);
                             }
                         });
@@ -178,13 +188,16 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
 
     // Send email with QR code info
     private void senEmail(SparseArray<Barcode> qrCodes) {
-        String mEmail = "filipebastias94@gmail.com";
-        String mSubject = "Falta de Recurso - Info";
+        String mEmail = "cienciasafe.fcul@gmail.com";
+        String mSubject;
+        mSubject = getString(R.string.email_subject);
         String mMessage = qrCodes.valueAt(0).displayValue;
 
         Mail javaMailAPI = new Mail(getContext(), mEmail, mSubject, mMessage);
         javaMailAPI.execute();
         registerResourceReport(mMessage);
+
+        Toast.makeText(getContext(), getString(R.string.email_sent),Toast.LENGTH_SHORT).show();
     }
 
     private void registerResourceReport(String mMessage) {

@@ -34,16 +34,16 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="316dp"
-                android:layout_height="109dp"
-                android:layout_below="@+id/camerapreview"
-                android:layout_marginStart="4dp"
+                android:layout_width="277dp"
+                android:layout_height="104dp"
+                android:layout_marginStart="24dp"
                 android:gravity="center|start"
                 android:text="Please focus on QR Code"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.545" />
 
             <Button
                 android:id="@+id/submit_resource_info"
@@ -51,6 +51,7 @@
                 android:layout_width="53dp"
                 android:layout_height="48dp"
                 android:drawableLeft="@drawable/report_send_button"
+                android:visibility="invisible"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView"
@@ -86,6 +87,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.951" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -116,7 +116,8 @@ public class ClassroomsFragment extends Fragment {
                             ArrayList<String> classrooms = new ArrayList<>();
 
                             for (DataSnapshot d : dataSnapshot.getChildren()) {
-                                classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class) + ";" + d.child("time_report").getValue(String.class));
+                                if (getActivity() != null)
+                                    classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class) + ";" + d.child("time_report").getValue(String.class));
                             }
 
                             RecyclerView recyclerView = v.findViewById(R.id.recycler_view);

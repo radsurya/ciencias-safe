@@ -46,4 +46,6 @@
     <string name="room_full">Room %1$s is full!</string>
     <string name="room_no_info">Room %1$s has no recent info.</string>
     <string name="go_to_room">Go near by a room...</string>
+    <string name="email_sent">Missing resource reported.</string>
+    <string name="email_subject">Missing Resource - Info</string>
 </resources>

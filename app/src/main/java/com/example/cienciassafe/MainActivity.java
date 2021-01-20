@@ -37,18 +37,17 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.UUID;
 
 import kotlin.Unit;
 import kotlin.jvm.functions.Function0;
 import kotlin.jvm.functions.Function1;
 
 public class MainActivity extends AppCompatActivity {
-
-    private String email, subject, message;
-    private Button button;
-
     private ProximityObserver proximityObserver;
     private ProximityZone zone;
 
@@ -183,21 +182,6 @@ public class MainActivity extends AppCompatActivity {
         /* End - Handle menu sidebar */
     }
 
-//    private void senEmail() {
-//        String mEmail = "filipebastias94@gmail.com";
-//        String mSubject = "TESTE";
-//        String mMessage = "TESTE";
-//
-//        Mail javaMailAPI = new Mail(this, mEmail, mSubject, mMessage);
-//        System.out.println("TESTE");
-//        javaMailAPI.execute();
-//    }
-
-    /* public void goToScreen(View view) {
-        Intent intent = new Intent(this, Menu.class);
-        startActivity(intent);
-    } */
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -218,6 +202,25 @@ public class MainActivity extends AppCompatActivity {
                             if (count == 0) {
                                 String room = d.getKey().replace("-", ".");
                                 String occupation = d.child("occupation").getValue(String.class);
+                                String occupationCounter = d.child("counter").getValue(String.class);
+                                String maxCapacity = d.child("maximum_capacity").getValue(String.class);
+
+                                System.out.println("####################### maxCapacity");
+                                System.out.println(maxCapacity);
+                                System.out.println("####################### occupationCounter");
+                                System.out.println(occupationCounter);
+                                /*
+                                if (maxCapacity > occupationCounter ) {
+                                    occupationCounter = occupationCounter + 1;
+
+                                    Save new occupation of room
+                                    String originalRoom = d.getKey();
+                                    DatabaseReference reff2;
+                                    reff2 = FirebaseDatabase.getInstance().getReference();
+                                    reff2.child("rooms").child("c1").child(originalRoom).child("counter").setValue(occupationCounter);
+                                    /* End - Save new occupation of room
+                                }*/
+
                                 if (room != null && occupation != null) {
                                     if (occupation.equals("no_info")) {
                                         view.setText(getString(R.string.room_no_info, room));
@@ -231,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
                                         view.setText(getString(R.string.room_full, room));
                                     }
                                 }
+
                                 count = count + 1;
                             }
 
