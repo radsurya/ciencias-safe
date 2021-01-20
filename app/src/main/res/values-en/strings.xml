@@ -49,4 +49,8 @@
     <string name="email_sent">Missing resource reported.</string>
     <string name="email_subject">Missing Resource - Info</string>
     <string name="maximum_capacity">Capacity: %1$s seats</string>
+    <string name="resource_report">Resource: %1$s</string>
+    <string name="building_report">Building: %1$s</string>
+    <string name="room_report">Room: %1$s</string>
+    <string name="alcohol_gel">Resource: Alcohol Gel</string>
 </resources>

@@ -163,19 +163,6 @@ public class CovidFragment extends Fragment {
 
             }
 
-            /*
-            mWebView = (WebView) v.findViewById(R.id.webview);
-            mWebView.loadUrl("https://ciencias.ulisboa.pt/pt/covid-19-relatorio-situacao-ciencias");
-
-            // Enable Javascript
-            WebSettings webSettings = mWebView.getSettings();
-            webSettings.setJavaScriptEnabled(true);
-
-            // Force links and redirects to open in the WebView instead of in a browser
-            mWebView.setWebViewClient(new WebViewClient());
-             */
-
-
         }
 
         // Inflate the layout for this fragment

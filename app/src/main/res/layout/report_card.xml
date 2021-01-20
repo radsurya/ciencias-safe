@@ -23,39 +23,39 @@
             ​
             <!-- Title, secondary and supporting text -->
             <TextView
-                android:id="@+id/week"
+                android:id="@+id/date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Week"
+                android:text="Date"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 />
 
             <TextView
-                android:id="@+id/confirmed_cases"
+                android:id="@+id/building"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Confirmed cases"
+                android:text="Building"
                 android:textAppearance="?attr/textAppearanceBody2"
                 android:textColor="?android:attr/textColorSecondary"
                 />
 
             <TextView
-                android:id="@+id/high_risk"
+                android:id="@+id/room"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="High risk"
+                android:text="Room"
                 android:textAppearance="?attr/textAppearanceBody2"
                 android:textColor="?android:attr/textColorSecondary"
                 />
 
             <TextView
-                android:id="@+id/tests"
+                android:id="@+id/resource"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Tests"
+                android:text="Resource"
                 android:textAppearance="?attr/textAppearanceBody2"
                 android:textColor="?android:attr/textColorSecondary"
                 />

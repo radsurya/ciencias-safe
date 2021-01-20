@@ -12,7 +12,6 @@ public class CovidReportCardViewHolder extends RecyclerView.ViewHolder {
     public TextView ConfirmedCases;
     public TextView HighRisk;
     public TextView Tests;
-    //public Button Button;
 
     public CovidReportCardViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -20,6 +19,5 @@ public class CovidReportCardViewHolder extends RecyclerView.ViewHolder {
         ConfirmedCases = itemView.findViewById(R.id.confirmed_cases);
         HighRisk = itemView.findViewById(R.id.high_risk);
         Tests = itemView.findViewById(R.id.tests);
-        //Button = itemView.findViewById(R.id.button_report);
     }
 }

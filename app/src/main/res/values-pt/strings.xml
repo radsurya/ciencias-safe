@@ -49,4 +49,8 @@
     <string name="email_sent">Falta de recurso reportado.</string>
     <string name="email_subject">Falta de Recurso - Info</string>
     <string name="maximum_capacity">Lotação: %1$s lugares</string>
+    <string name="room_report">Sala: %1$s</string>
+    <string name="building_report">Edifício: %1$s</string>
+    <string name="resource_report">Recurso: %1$s</string>
+    <string name="alcohol_gel">Recurso: Álcool Gel</string>
 </resources>

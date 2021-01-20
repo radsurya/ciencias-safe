@@ -10,9 +10,12 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Vibrator;
 import android.util.SparseArray;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -26,11 +29,17 @@ import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
+import com.google.android.material.card.MaterialCardView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -48,6 +57,11 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
     TextView textView;
     BarcodeDetector barcodeDetector;
     private Button sendEmailButton;
+    private MaterialCardView materialCard;
+    private TextView textViewInfo;
+    private RecyclerView recyclerView;
+
+    private Button button;
 
     public ReportFragment() {
         // Required empty public constructor
@@ -88,6 +102,9 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
             sendEmailButton = (Button) v.findViewById(R.id.submit_resource_info);
             surfaceView = (SurfaceView) v.findViewById(R.id.camerapreview);
             textView = (TextView) v.findViewById(R.id.textView);
+            textViewInfo = (TextView) v.findViewById(R.id.textView5);
+            materialCard = v.findViewById(R.id.material_card);
+            recyclerView = v.findViewById(R.id.recycler_view);
 
             barcodeDetector = new BarcodeDetector.Builder(getActivity())
                     .setBarcodeFormats(Barcode.QR_CODE).build();
@@ -173,17 +190,23 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
         Fragment fragment = null;
         switch (view.getId()) {
             case R.id.button7:
-                fragment = new ResourceReportHistory();
-                replaceFragment(fragment);
+                getActivity().runOnUiThread(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        sendEmailButton.setVisibility(sendEmailButton.INVISIBLE);
+                        surfaceView.setVisibility(surfaceView.INVISIBLE);
+                        materialCard.setVisibility(materialCard.INVISIBLE);
+                        textViewInfo.setVisibility(textViewInfo.INVISIBLE);
+                        recyclerView.setVisibility(recyclerView.VISIBLE);
+                        Button button = (Button) v.findViewById(R.id.button7);
+                        button.setVisibility(button.INVISIBLE);
+                        displayReportHistoricData();
+                    }
+                });
+
                 break;
         }
-    }
-
-    public void replaceFragment(Fragment someFragment) {
-        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragment_resource_report_history, someFragment);
-        transaction.addToBackStack(null);
-        transaction.commit();
     }
 
     // Send email with QR code info
@@ -206,9 +229,44 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
         Map<String, Object> map = new HashMap<>();
         String uniqueID = UUID.randomUUID().toString();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        SimpleDateFormat formatter2 = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date date = new Date();
-        map.put("resource", new Resource(mMessage, formatter.format(date)));
+        map.put("resource", new Resource(mMessage, formatter.format(date), formatter2.format(date)));
         reff.child("resourceReport").child("Report_ID_" + uniqueID).setValue(map);
     }
+
+    private void displayReportHistoricData() {
+        final TextView teste = v.findViewById(R.id.teste);
+        DatabaseReference reff;
+        reff = FirebaseDatabase.getInstance().getReference();
+        reff.child("resourceReport").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+
+                    ArrayList<String> reportHistory = new ArrayList<>();
+
+                    for (DataSnapshot d : dataSnapshot.getChildren()) {
+                        reportHistory.add(d.child("resource").child("date2").getValue(String.class) + ";" + d.child("resource").child("date").getValue(String.class) + ";" + d.child("resource").child("mMessage").getValue(String.class));
+                    }
+
+                    Collections.sort(reportHistory);
+                    Collections.reverse(reportHistory);
+
+                    RecyclerView recyclerView = v.findViewById(R.id.recycler_view);
+                    recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 1, GridLayoutManager.VERTICAL, false));
+                    ReportRecyclerViewAdapter recyclerViewAdapter = new ReportRecyclerViewAdapter(reportHistory);
+                    recyclerView.setAdapter(recyclerViewAdapter);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+                System.out.println("Failed to read value. " + error.toException());
+            }
+        });
+    }
+
 
 }
