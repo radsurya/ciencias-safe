@@ -53,4 +53,5 @@
     <string name="building_report">Building: %1$s</string>
     <string name="room_report">Room: %1$s</string>
     <string name="alcohol_gel">Resource: Alcohol Gel</string>
+    <string name="room_half_full">Room %1$s is half full!</string>
 </resources>
