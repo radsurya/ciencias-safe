@@ -33,7 +33,6 @@ import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link HomepageFragment#newInstance} factory method to
@@ -173,6 +172,7 @@ public class HomepageFragment extends Fragment {
                 startPoint =  new GeoPoint(latTemp, longTemp);
                 mapController.setCenter(startPoint);
             }
+
         }
     }
 

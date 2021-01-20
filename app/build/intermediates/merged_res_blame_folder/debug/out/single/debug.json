@@ -8,24 +8,24 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\github.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home.xml.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_report.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_report.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bluetooth_on.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-mdpi\\ic_bluetooth_on.png"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home.xml.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_linkedin.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\linkedin.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_linkedin.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\linkedin.png"
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bluetooth_on.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\src\\main\\res\\drawable-mdpi\\ic_bluetooth_on.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_report_problem.png.flat",
-        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_report_problem.png"
-    },
-    {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_about.png.flat",
         "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_about.png"
+    },
+    {
+        "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_report_problem.png.flat",
+        "source": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_report_problem.png"
     },
     {
         "merged": "C:\\Users\\dogaf\\AndroidStudioProjects\\ciencias-safe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_info_message_resource_fragment.png.flat",

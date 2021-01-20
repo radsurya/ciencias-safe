@@ -46,4 +46,5 @@
     <string name="room_full">A sala %1$s está cheia!</string>
     <string name="room_no_info">A sala %1$s não tem informação recente.</string>
     <string name="go_to_room">Desloque-se perto de uma sala...</string>
+    <string name="maximum_capacity">Lotação: %1$s lugares</string>
 </resources>

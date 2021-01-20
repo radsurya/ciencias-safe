@@ -27,6 +27,7 @@ public class Classrooms extends AppCompatActivity implements AdapterView.OnItemS
     public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
         Toast.makeText(getApplicationContext(), "Selected option: "+buildings[position] , Toast.LENGTH_SHORT).show();
     }
+
     @Override
     public void onNothingSelected(AdapterView<?> arg0) {
         // TODO - Custom Code
