@@ -45,6 +45,7 @@ public class ClassroomRecyclerViewAdapter extends RecyclerView.Adapter<Classroom
     public void onBindViewHolder(@NonNull ClassroomCardViewHolder holder, int position) {
         if (classroomList != null && position < classroomList.size()) {
             final String classroom = classroomList.get(position);
+            holder.MaximumCapacity.setText(holder.itemView.getContext().getString(R.string.maximum_capacity, classroom.split(";")[3]));
             holder.Room.setText(classroom.split(";")[0]);
             if (classroom.split(";")[1].equals("no_info")) {
                 holder.OccupancyText.setText(R.string.classroom_no_info);

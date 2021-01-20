@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -141,6 +142,14 @@ public class CovidFragment extends Fragment {
                             recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 1, GridLayoutManager.VERTICAL, false));
                             CovidReportRecyclerViewAdapter recyclerViewAdapter = new CovidReportRecyclerViewAdapter(weeks);
                             recyclerView.setAdapter(recyclerViewAdapter);
+
+                            TypedValue tv = new TypedValue();
+                            int actionBarHeight = 0;
+                            if (getActivity().getTheme().resolveAttribute(R.attr.actionBarSize, tv, true)) {
+                                actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data,getResources().getDisplayMetrics()) + 100;
+                            }
+
+                            recyclerView.setPadding(0, 0, 0, actionBarHeight);
 
                         }
                     }

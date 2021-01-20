@@ -2117,6 +2117,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id maximum_capacity
 id media_actions
 id menu_button
 id menu_logo_img
@@ -2643,6 +2644,7 @@ string format_distance_value_unit
 string full
 string gcm_defaultSenderId
 string geopackage_db_rollback_suffix
+string go_to_room
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -2687,6 +2689,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string maximum_capacity
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2751,7 +2754,12 @@ string requesting_location_permission
 string requesting_location_permission_rationale
 string roads_nl
 string room
+string room_almost_empty
+string room_almost_full
+string room_empty
+string room_full
 string room_list
+string room_no_info
 string samples
 string search_menu_title
 string set_mode_hide_me

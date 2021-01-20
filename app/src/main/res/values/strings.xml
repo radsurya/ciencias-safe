@@ -71,4 +71,5 @@
     <string name="go_to_room">Desloque-se perto de uma sala...</string>
     <string name="email_sent">Falta de recurso reportado.</string>
     <string name="email_subject">Falta de Recurso - Info</string>
+    <string name="maximum_capacity">Lotação: %1$s lugares</string>
 </resources>
