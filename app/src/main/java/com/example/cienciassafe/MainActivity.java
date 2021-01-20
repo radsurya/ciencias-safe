@@ -204,77 +204,39 @@ public class MainActivity extends AppCompatActivity {
                             if (count == 0) {
                                 String room = d.getKey().replace("-", ".");
                                 String occupation = d.child("occupation").getValue(String.class);
-                                String occupationCounter = d.child("counter").getValue(String.class);
-                                String maxCapacity = d.child("maximum_capacity").getValue(String.class);
-                                int occupationCounterInt;
-                                int maxCapacityInt;
                                 String occupationUpdate = "no_info";
-
-                                if (occupationCounter != null && maxCapacity != null) {
-                                    occupationCounterInt = Integer.parseInt(occupationCounter);
-                                    maxCapacityInt = Integer.parseInt(maxCapacity);
-
-                                    if (maxCapacityInt > occupationCounterInt ) {
-                                        occupationCounterInt = occupationCounterInt + 1;
-
-                                        // Get occupation perentage 100 * n / max
-                                        int occupationPerentage = (100 * occupationCounterInt) / maxCapacityInt;
-
-                                        if (occupationPerentage == 0) { // empty
-                                            occupationUpdate = "empty";
-                                        } else if (occupationPerentage > 0 && occupationPerentage <= 25) {  // almost_empty
-                                            occupationUpdate = "almost_empty";
-                                        } else if (occupationPerentage > 25 && occupationPerentage <= 50) { // half_full
-                                            occupationUpdate = "half_full";
-                                        } else if (occupationPerentage > 50 && occupationPerentage <= 75) { // almost_full
-                                            occupationUpdate = "almost_full";
-                                        } else if (occupationPerentage > 75 && occupationPerentage <= 100) { // full
-                                            occupationUpdate = "full";
-                                        }
-
-                                        /* Save new occupation of room */
-                                        String originalRoom = d.getKey();
-                                        DatabaseReference reff2;
-                                        reff2 = FirebaseDatabase.getInstance().getReference();
-                                        occupationCounter = Integer.toString(occupationCounterInt);
-
-
-                                        Map<String, Object> map = new HashMap<>();
-                                        map.put("counter", occupationCounter);
-                                        map.put("occupation", occupationUpdate);
-
-                                        reff2.child("rooms").child("c1").child(originalRoom).updateChildren(map,
-                                                new DatabaseReference.CompletionListener() {
-                                                    @Override
-                                                    public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
-                                                        if (databaseError == null) {
-                                                            Log.i("success", "onComplete: success");
-                                                        } else {
-                                                            Log.w("fail", "onComplete: fail", databaseError.toException());
-                                                        }
-                                                    }}
-                                                    );
-                                        /* End - Save new occupation of room */
-                                    }
-                                }
-
 
                                 if (room != null && occupation != null) {
                                     if (occupation.equals("no_info")) {
-                                        view.setText(getString(R.string.room_no_info, room));
-                                    } else if (occupation.equals("empty")) {
+                                        occupationUpdate = "almost_empty";
                                         view.setText(getString(R.string.room_empty, room));
-                                    } else if (occupation.equals("almost_empty")) {
+                                    } else if (occupation.equals("empty")) {
+                                        occupationUpdate = "almost_empty";
                                         view.setText(getString(R.string.room_almost_empty, room));
-                                    } else if (occupation.equals("half_full")) {
+                                    } else if (occupation.equals("almost_empty")) {
+                                        occupationUpdate = "half_full";
                                         view.setText(getString(R.string.room_half_full, room));
-                                    } else if (occupation.equals("almost_full")) {
+                                    } else if (occupation.equals("half_full")) {
+                                        occupationUpdate = "almost_full";
                                         view.setText(getString(R.string.room_almost_full, room));
+                                    } else if (occupation.equals("almost_full")) {
+                                        occupationUpdate = "full";
+                                        view.setText(getString(R.string.room_full, room));
                                     } else if (occupation.equals("full")) {
+                                        occupationUpdate = "full";
                                         view.setText(getString(R.string.room_full, room));
                                     }
-                                }
 
+                                    /* Save new occupation of room */
+                                    String originalRoom = d.getKey();
+                                    DatabaseReference reff2;
+                                    reff2 = FirebaseDatabase.getInstance().getReference();
+                                    Map<String, Object> map = new HashMap<>();
+                                    map.put("occupation", occupationUpdate);
+                                    reff2.child("rooms").child("c1").child(originalRoom).updateChildren(map);
+                                    /* End - Save new occupation of room */
+
+                                }
 
                                 count = count + 1;
                             }
