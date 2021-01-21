@@ -83,7 +83,7 @@ public class ClassroomsFragment extends Fragment {
                                     ArrayList<String> classrooms = new ArrayList<>();
 
                                     for (DataSnapshot d : dataSnapshot.getChildren()) {
-                                        classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class) + ";" + d.child("time_report").getValue(String.class));
+                                        classrooms.add(getActivity().getResources().getString(R.string.room) + " " + d.getKey().replace("-", ".") + ";" + d.child("occupation").getValue(String.class) + ";" + d.child("time_report").getValue(String.class) + ";" + d.child("maximum_capacity").getValue(String.class));
                                     }
 
                                     RecyclerView recyclerView = v.findViewById(R.id.recycler_view);
@@ -128,8 +128,10 @@ public class ClassroomsFragment extends Fragment {
 
                             TypedValue tv = new TypedValue();
                             int actionBarHeight = 0;
-                            if (getActivity().getTheme().resolveAttribute(R.attr.actionBarSize, tv, true)) {
-                                actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data,getResources().getDisplayMetrics()) + 100;
+                            if (getActivity() != null) {
+                                if (getActivity().getTheme().resolveAttribute(R.attr.actionBarSize, tv, true)) {
+                                    actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data,getResources().getDisplayMetrics()) + 100;
+                                }
                             }
 
                             recyclerView.setPadding(0, 0, 0, actionBarHeight);

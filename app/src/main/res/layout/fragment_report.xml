@@ -9,7 +9,7 @@
 
     <SurfaceView
         android:id="@+id/camerapreview"
-        android:layout_width="411dp"
+        android:layout_width="match_parent"
         android:layout_height="431dp"
         android:layout_centerInParent="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,7 +89,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
-    <!--
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
@@ -104,7 +103,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-        -->
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
