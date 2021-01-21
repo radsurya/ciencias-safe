@@ -14,8 +14,8 @@
     <string name="location_history">Location History</string>
     <string name="about">About</string>
     <string name="covid_19_ciencias">COVID-19 in Ciências</string>
-    <string name="classroom_empty">Occupation: 🟩⬜⬜⬜</string>
-    <string name="classroom_almost_empty">Occupation: 🟨🟨⬜⬜</string>
+    <string name="classroom_empty">Occupation: ⬜⬜⬜⬜</string>
+    <string name="classroom_almost_empty">Occupation: 🟩⬜⬜⬜</string>
     <string name="classroom_almost_full">Occupation: 🟧🟧🟧⬜</string>
     <string name="classroom_full">Occupation: 🟥🟥🟥🟥</string>
     <string name="classroom_no_info">Occupation: -</string>
@@ -24,8 +24,8 @@
     <string name="occupation">Occupation</string>
     <string name="full">🟥🟥🟥🟥 Full</string>
     <string name="almost_full">🟧🟧🟧⬜ Almost Full</string>
-    <string name="almost_empty">"🟨🟨⬜⬜ Almost Empty "</string>
-    <string name="empty">🟩⬜⬜⬜ Empty</string>
+    <string name="almost_empty">"🟩⬜⬜⬜ Almost Empty "</string>
+    <string name="empty">⬜⬜⬜⬜ Empty</string>
     <string name="report">Report</string>
     <string name="cancel">Cancel</string>
     <string name="order_by">Order by:</string>
@@ -54,4 +54,9 @@
     <string name="room_report">Room: %1$s</string>
     <string name="alcohol_gel">Resource: Alcohol Gel</string>
     <string name="room_half_full">Room %1$s is half full!</string>
+    <string name="email_will">An email will be sent automatically to the responsibles with the information of the resource.</string>
+    <string name="historic">Historic</string>
+    <string name="qr_code">Please focus on QR Code</string>
+    <string name="classroom_half_full">Occupation: 🟨🟨⬜⬜</string>
+    <string name="half_full">🟨🟨⬜⬜ Half Full</string>
 </resources>

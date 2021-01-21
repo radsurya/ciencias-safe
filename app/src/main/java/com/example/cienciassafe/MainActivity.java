@@ -58,6 +58,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String originalRoom = "1-1-36";
+        DatabaseReference reff2;
+        reff2 = FirebaseDatabase.getInstance().getReference();
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("counter", "15");
+        map.put("occupation", "almost_full");
+
+        reff2.child("rooms").child("c1").child(originalRoom).updateChildren(map);
+
         /* Handle Estimote */
         EstimoteCloudCredentials cloudCredentials = new EstimoteCloudCredentials("cienciassafe-bly", "57d3410e9b3c0594fe5ba8da9b1f5070");
 

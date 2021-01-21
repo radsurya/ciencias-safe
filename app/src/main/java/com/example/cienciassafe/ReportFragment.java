@@ -247,7 +247,7 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
                     ArrayList<String> reportHistory = new ArrayList<>();
 
                     for (DataSnapshot d : dataSnapshot.getChildren()) {
-                        reportHistory.add(d.child("resource").child("date2").getValue(String.class) + ";" + d.child("resource").child("date").getValue(String.class) + ";" + d.child("resource").child("mMessage").getValue(String.class));
+                        reportHistory.add(d.child("resource").child("date2xz").getValue(String.class) + ";" + d.child("resource").child("date").getValue(String.class) + ";" + d.child("resource").child("mMessage").getValue(String.class));
                     }
 
                     Collections.sort(reportHistory);

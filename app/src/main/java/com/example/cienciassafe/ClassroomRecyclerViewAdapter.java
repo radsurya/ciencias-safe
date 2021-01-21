@@ -1,8 +1,6 @@
 package com.example.cienciassafe;
 
-import android.content.Context;
 import android.content.DialogInterface;
-import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +13,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -53,6 +49,8 @@ public class ClassroomRecyclerViewAdapter extends RecyclerView.Adapter<Classroom
                 holder.OccupancyText.setText(R.string.classroom_empty);
             } else if (classroom.split(";")[1].equals("almost_empty")) {
                 holder.OccupancyText.setText(R.string.classroom_almost_empty);
+            } else if (classroom.split(";")[1].equals("half_full")) {
+                holder.OccupancyText.setText(R.string.classroom_half_full);
             } else if (classroom.split(";")[1].equals("almost_full")) {
                 holder.OccupancyText.setText(R.string.classroom_almost_full);
             } else if (classroom.split(";")[1].equals("full")) {
@@ -68,17 +66,19 @@ public class ClassroomRecyclerViewAdapter extends RecyclerView.Adapter<Classroom
             holder.Button.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v) {
-                    String[] singleItems = {v.getResources().getString(R.string.empty), v.getResources().getString(R.string.almost_empty), v.getResources().getString(R.string.almost_full), v.getResources().getString(R.string.full)};
+                    String[] singleItems = {v.getResources().getString(R.string.empty), v.getResources().getString(R.string.almost_empty), v.getResources().getString(R.string.half_full), v.getResources().getString(R.string.almost_full), v.getResources().getString(R.string.full)};
                     System.out.println(singleItems);
                     int checkedItem;
                     if (classroom.split(";")[1].equals("empty")) {
                         checkedItem = 0;
                     } else if (classroom.split(";")[1].equals("almost_empty")) {
                         checkedItem = 1;
-                    } else if (classroom.split(";")[1].equals("almost_full")) {
+                    } else if (classroom.split(";")[1].equals("half_full")) {
                         checkedItem = 2;
-                    } else if (classroom.split(";")[1].equals("full")) {
+                    } else if (classroom.split(";")[1].equals("almost_full")) {
                         checkedItem = 3;
+                    } else if (classroom.split(";")[1].equals("full")) {
+                        checkedItem = 4;
                     } else {
                          checkedItem = 0;
                     }
@@ -93,21 +93,20 @@ public class ClassroomRecyclerViewAdapter extends RecyclerView.Adapter<Classroom
                                     DatabaseReference reff;
                                     reff = FirebaseDatabase.getInstance().getReference();
                                     String room = classroom.split(";")[0].split(" ")[1].replace(".", "-");
-                                    System.out.println(room);
                                     String building = room.split("-")[0];
-                                    System.out.println(building);
                                     Map<String, Object> map = new HashMap<>();
                                     if (selectedPosition == 0) {
                                         map.put("occupation", "empty");
                                     } else if (selectedPosition == 1) {
                                         map.put("occupation", "almost_empty");
                                     } else if (selectedPosition == 2) {
-                                        map.put("occupation", "almost_full");
+                                        map.put("occupation", "half_full");
                                     } else if (selectedPosition == 3) {
+                                        map.put("occupation", "almost_full");
+                                    } else if (selectedPosition == 4) {
                                         map.put("occupation", "full");
                                     }
 
-                                    //SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault());
                                     String currentDateandTime = new SimpleDateFormat("HH:mm dd/MM/yyyy", Locale.getDefault()).format(new Date());
                                     map.put("time_report", currentDateandTime);
                                     reff.child("rooms").child("c" + building).child(room).updateChildren(map);
