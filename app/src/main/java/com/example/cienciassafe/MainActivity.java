@@ -21,6 +21,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import com.google.android.material.navigation.NavigationView;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 import com.estimote.mustard.rx_goodness.rx_requirements_wizard.Requirement;
@@ -37,8 +39,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
@@ -57,16 +61,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        String originalRoom = "1-1-36";
-        DatabaseReference reff2;
-        reff2 = FirebaseDatabase.getInstance().getReference();
-
-        Map<String, Object> map = new HashMap<>();
-        map.put("counter", "15");
-        map.put("occupation", "almost_full");
-
-        reff2.child("rooms").child("c1").child(originalRoom).updateChildren(map);
 
         /* Handle Estimote */
         EstimoteCloudCredentials cloudCredentials = new EstimoteCloudCredentials("cienciassafe-bly", "57d3410e9b3c0594fe5ba8da9b1f5070");
@@ -241,8 +235,10 @@ public class MainActivity extends AppCompatActivity {
                                     String originalRoom = d.getKey();
                                     DatabaseReference reff2;
                                     reff2 = FirebaseDatabase.getInstance().getReference();
+                                    String currentDateandTime = new SimpleDateFormat("HH:mm dd/MM/yyyy", Locale.getDefault()).format(new Date());
                                     Map<String, Object> map = new HashMap<>();
                                     map.put("occupation", occupationUpdate);
+                                    map.put("time_report", currentDateandTime);
                                     reff2.child("rooms").child("c1").child(originalRoom).updateChildren(map);
                                     /* End - Save new occupation of room */
 
