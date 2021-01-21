@@ -9,8 +9,8 @@
 
     <SurfaceView
         android:id="@+id/camerapreview"
-        android:layout_width="0dp"
-        android:layout_height="471dp"
+        android:layout_width="411dp"
+        android:layout_height="431dp"
         android:layout_centerInParent="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -22,14 +22,13 @@
         android:layout_width="389dp"
         android:layout_height="125dp"
         android:layout_margin="8dp"
-        android:layout_marginTop="12dp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/camerapreview">
 
-
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clayout"
             android:layout_width="match_parent"
             android:layout_height="120dp">
 
@@ -37,7 +36,7 @@
                 android:id="@+id/textView"
                 android:layout_width="316dp"
                 android:layout_height="109dp"
-                android:layout_below="@+id/camerapreview"
+                android:layout_below="@+id/clayout"
                 android:layout_marginStart="4dp"
                 android:gravity="center|start"
                 android:text="@string/qr_code"
@@ -90,6 +89,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
+    <!--
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
@@ -104,5 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+        -->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
